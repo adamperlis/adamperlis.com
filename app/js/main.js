@@ -4,6 +4,7 @@ var angular = require('angular');
 
 // angular modules
 require('angular-ui-router');
+require('angular-animate');
 require('./templates');
 require('./controllers/_index');
 require('./services/_index');
@@ -17,7 +18,8 @@ angular.element(document).ready(function() {
     'templates',
     'app.controllers',
     'app.services',
-    'app.directives'
+    'app.directives',
+    'ngAnimate'
   ];
 
   // mount on window for testing

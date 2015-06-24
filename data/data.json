@@ -1,0 +1,700 @@
+{
+  "project": {
+    "id": 26782843,
+    "name": "AT&T AdWorks Lab - History of Innovation",
+    "published_on": 1433777271,
+    "created_on": 1433276458,
+    "modified_on": 1434729666,
+    "url": "https://www.behance.net/gallery/26782843/AT-T-AdWorks-Lab-History-of-Innovation",
+    "privacy": "public",
+    "fields": [
+      "Motion Graphics",
+      "UI/UX",
+      "Web Design"
+    ],
+    "covers": {
+      "115": "https://mir-s3-cdn-cf.behance.net/projects/115/87545026782843.5575b33eb5d3b.png",
+      "202": "https://mir-s3-cdn-cf.behance.net/projects/202/87545026782843.5575b33eb5d3b.png",
+      "230": "https://mir-s3-cdn-cf.behance.net/projects/230/87545026782843.5575b33eb5d3b.png",
+      "404": "https://mir-s3-cdn-cf.behance.net/projects/404/87545026782843.5575b33eb5d3b.png"
+    },
+    "mature_content": 0,
+    "mature_access": "allowed",
+    "owners": [
+      {
+        "id": 272467,
+        "first_name": "Adam",
+        "last_name": "Perlis",
+        "username": "adamperlis9036",
+        "city": "New York",
+        "state": "New York",
+        "country": "United States",
+        "location": "New York, NY, USA",
+        "company": "",
+        "occupation": "Creative Director",
+        "created_on": 1291301150,
+        "url": "https://www.behance.net/adamperlis9036",
+        "images": {
+          "50": "https://mir-s3-cdn-cf.behance.net/user/50/272467.53ac983c067a7.jpg",
+          "100": "https://mir-s3-cdn-cf.behance.net/user/100/272467.53ac983c067a7.jpg",
+          "115": "https://mir-s3-cdn-cf.behance.net/user/115/272467.53ac983c067a7.jpg",
+          "138": "https://mir-s3-cdn-cf.behance.net/user/138/272467.53ac983c067a7.jpg",
+          "230": "https://mir-s3-cdn-cf.behance.net/user/230/272467.53ac983c067a7.jpg",
+          "276": "https://mir-s3-cdn-cf.behance.net/user/276/272467.53ac983c067a7.jpg"
+        },
+        "display_name": "Adam Perlis",
+        "fields": [
+          "Animation",
+          "Advertising",
+          "Branding"
+        ],
+        "has_default_image": 0,
+        "website": "AdamPerlisTV.com"
+      },
+      {
+        "id": 2280393,
+        "first_name": "Malissa",
+        "last_name": "Smith",
+        "username": "malissasmith",
+        "city": "Brooklyn",
+        "state": "New York",
+        "country": "United States",
+        "location": "Brooklyn, NY, USA",
+        "company": "Madwell",
+        "occupation": "Graphic Designer",
+        "created_on": 1361935202,
+        "url": "https://www.behance.net/malissasmith",
+        "images": {
+          "50": "https://mir-s3-cdn-cf.behance.net/user/50/2280393.53b8760007cc4.jpg",
+          "100": "https://mir-s3-cdn-cf.behance.net/user/100/2280393.53b8760007cc4.jpg",
+          "115": "https://mir-s3-cdn-cf.behance.net/user/115/2280393.53b8760007cc4.jpg",
+          "138": "https://mir-s3-cdn-cf.behance.net/user/138/2280393.53b8760007cc4.jpg",
+          "230": "https://mir-s3-cdn-cf.behance.net/user/230/2280393.53b8760007cc4.jpg",
+          "276": "https://mir-s3-cdn-cf.behance.net/user/276/2280393.53b8760007cc4.jpg"
+        },
+        "display_name": "Malissa Smith",
+        "fields": [
+          "Illustration",
+          "Graphic Design",
+          "Typography"
+        ],
+        "has_default_image": 0,
+        "website": "www.malissasmith.com"
+      },
+      {
+        "id": 2693835,
+        "first_name": "Kelvin",
+        "last_name": "Fadul",
+        "username": "kelvinfadul",
+        "city": "Merrick",
+        "state": "New York",
+        "country": "United States",
+        "location": "Merrick, NY, USA",
+        "company": "",
+        "occupation": "Graphic Designer/ Animator",
+        "created_on": 1368385754,
+        "url": "https://www.behance.net/kelvinfadul",
+        "images": {
+          "50": "https://mir-s3-cdn-cf.behance.net/user/50/2693835.53ba3a4f140c6.jpg",
+          "100": "https://mir-s3-cdn-cf.behance.net/user/100/2693835.53ba3a4f140c6.jpg",
+          "115": "https://mir-s3-cdn-cf.behance.net/user/115/2693835.53ba3a4f140c6.jpg",
+          "138": "https://mir-s3-cdn-cf.behance.net/user/138/2693835.53ba3a4f140c6.jpg",
+          "230": "https://mir-s3-cdn-cf.behance.net/user/230/2693835.53ba3a4f140c6.jpg",
+          "276": "https://mir-s3-cdn-cf.behance.net/user/276/2693835.53ba3a4f140c6.jpg"
+        },
+        "display_name": "Kelvin Fadul",
+        "fields": [
+          "Graphic Design",
+          "Advertising",
+          "Branding"
+        ],
+        "has_default_image": 0,
+        "website": "kelvinfadul.graphics"
+      },
+      {
+        "id": 8245487,
+        "first_name": "Isaiah",
+        "last_name": "Frazier",
+        "username": "isaiahfrazier1",
+        "city": "Brooklyn",
+        "state": "New York",
+        "country": "United States",
+        "location": "Brooklyn, NY, USA",
+        "company": "",
+        "occupation": "",
+        "created_on": 1412174739,
+        "url": "https://www.behance.net/isaiahfrazier1",
+        "images": {
+          "50": "https://mir-s3-cdn-cf.behance.net/user/50/89ca648245487.5575dd78ceb91.jpg",
+          "100": "https://mir-s3-cdn-cf.behance.net/user/100/89ca648245487.5575dd78ceb91.jpg",
+          "115": "https://mir-s3-cdn-cf.behance.net/user/115/89ca648245487.5575dd78ceb91.jpg",
+          "138": "https://mir-s3-cdn-cf.behance.net/user/138/89ca648245487.5575dd78ceb91.jpg",
+          "230": "https://mir-s3-cdn-cf.behance.net/user/230/89ca648245487.5575dd78ceb91.jpg",
+          "276": "https://mir-s3-cdn-cf.behance.net/user/276/89ca648245487.5575dd78ceb91.jpg"
+        },
+        "display_name": "Isaiah Frazier",
+        "fields": [],
+        "has_default_image": 0,
+        "website": ""
+      }
+    ],
+    "stats": {
+      "views": 175,
+      "appreciations": 10,
+      "comments": 1
+    },
+    "canvas_width": 1400,
+    "tags": [
+      "AT&T Labs",
+      "AT&T AdWorks",
+      "Adam Perlis",
+      "angularjs",
+      "css",
+      "html5",
+      "JavaScript",
+      "after effects"
+    ],
+    "description": "The AT&T AdWorks Lab tasked my team with creating an interactive experience to showcase AT&T Lab's rich \"History of Innovation\". The experience was built for the web and was translated to touch via some interactive display adapters on the TVs. Using a combination of Design, UX/UI, Motion Graphics, and Web Development we created a rich experience that works across Web, Mobile and Tablet.",
+    "editor_version": 5,
+    "modules": [
+      {
+        "id": 175121913,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/d39131b9086dfad4ce7487807a7aeefe.png",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/d39131b9086dfad4ce7487807a7aeefe.png",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/d39131b9086dfad4ce7487807a7aeefe.png",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/d39131b9086dfad4ce7487807a7aeefe.png",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/d39131b9086dfad4ce7487807a7aeefe.png"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 600,
+            "height": 80
+          },
+          "max_1240": {
+            "width": 644,
+            "height": 86
+          },
+          "max_1200": {
+            "width": 644,
+            "height": 86
+          },
+          "original": {
+            "width": 644,
+            "height": 86
+          }
+        },
+        "width": 600,
+        "height": 80
+      },
+      {
+        "id": 175124787,
+        "type": "text",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "text": "<div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">The AT&amp;T AdWorks Lab tasked my team with creating an interactive experience to showcase AT&amp;T Lab's rich \"History of Innovation\". The experience was built for the web and was translated to touch via some interactive display adapters on the TVs. Using a combination of Design, UX/UI, Motion Graphics, and Web Development we created a rich experience that works across Web, Mobile and Tablet. Special thanks to <span class=\"bold\">Hungry</span> for there technical guidance and top notch developement work and <span class=\"bold\">Jenny Goldstick</span> for her help establishing the initial concept.</span></div><div style=\"text-align: center;\"> </div><div style=\"text-align: center;\"><a href=\"http://historyofinnovation.att.com\" style=\"color:#FFFFFF;\" target=\"_blank\"><span class=\"bold\"><span style=\"color:#D5D5D5;\">http://historyofinnovation.att.com</span></span></a></div><div style=\"text-align: center;\"> </div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Tools:</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Adobe Illustrator/Photoshop</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Adobe After Effects</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">AngularJS</span></div><div style=\"text-align: center;\"> </div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Team:</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Adam Perlis - Executive Producer/Creative Director/Developer</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Alex Kozovski - Executive Producer/Lab Director/Developer</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Kelvin Fadul - Motion Designer</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Yang Yang - Motion Designer</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Isaiah Frazier - Lead Designer</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Jenny Goldstick - Designer</span></div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Malissa Smith - Designer</span></div><div style=\"text-align: center;\">Jenny Goldstick - Designer</div><div style=\"text-align: center;\"><span style=\"color:#D5D5D5;\">Hungry, Inc - Developement (<span class=\"bold\"><a href=\"https://hungryinc.com/\" style=\"color:#FFFFFF;\" target=\"_blank\">https://hungryinc.com/</a></span>)</span></div>",
+        "text_plain": "The AT&amp;T AdWorks Lab tasked my team with creating an interactive experience to showcase AT&amp;T Lab's rich \"History of Innovation\". The experience was built for the web and was translated to touch via some interactive display adapters on the TVs. Using a combination of Design, UX/UI, Motion Graphics, and Web Development we created a rich experience that works across Web, Mobile and Tablet. Special thanks to Hungry for there technical guidance and top notch developement work and Jenny Goldstick for her help establishing the initial concept. http://historyofinnovation.att.com Tools:Adobe Illustrator/PhotoshopAdobe After EffectsAngularJS Team:Adam Perlis - Executive Producer/Creative Director/DeveloperAlex Kozovski - Executive Producer/Lab Director/DeveloperKelvin Fadul - Motion DesignerYang Yang - Motion DesignerIsaiah Frazier - Lead DesignerJenny Goldstick - DesignerMalissa Smith - DesignerJenny Goldstick - DesignerHungry, Inc - Developement (https://hungryinc.com/)"
+      },
+      {
+        "id": 177091243,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/c92541c702b2124937f7e1d83daaa117.png",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/c92541c702b2124937f7e1d83daaa117.png",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/c92541c702b2124937f7e1d83daaa117.png"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 90,
+            "height": 135
+          },
+          "original": {
+            "width": 90,
+            "height": 135
+          }
+        },
+        "width": 90,
+        "height": 135
+      },
+      {
+        "id": 175496027,
+        "type": "embed",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "width": 600,
+        "height": 338,
+        "original_width": "1200",
+        "original_height": "675",
+        "embed": "<iframe src=\"https://player.vimeo.com/video/129937421?title=0&amp;byline=0&amp;portrait=0\" width=\"600\" height=\"338\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" style=\"margin:0px auto;display:block;\"></iframe>"
+      },
+      {
+        "id": 177649507,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/aa704eb1394af93b0e04d696e12b3807.jpg",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/aa704eb1394af93b0e04d696e12b3807.jpg",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/aa704eb1394af93b0e04d696e12b3807.jpg",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/aa704eb1394af93b0e04d696e12b3807.jpg",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/aa704eb1394af93b0e04d696e12b3807.jpg"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 600,
+            "height": 425
+          },
+          "max_1240": {
+            "width": 1200,
+            "height": 850
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 850
+          },
+          "original": {
+            "width": 1200,
+            "height": 850
+          }
+        },
+        "width": 600,
+        "height": 425
+      },
+      {
+        "id": 174978651,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/3ed6f5e089005b9f3c8e1275eba69b90.jpg",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/3ed6f5e089005b9f3c8e1275eba69b90.jpg",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/3ed6f5e089005b9f3c8e1275eba69b90.jpg",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/3ed6f5e089005b9f3c8e1275eba69b90.jpg",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/3ed6f5e089005b9f3c8e1275eba69b90.jpg"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 600,
+            "height": 425
+          },
+          "max_1240": {
+            "width": 1200,
+            "height": 850
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 850
+          },
+          "original": {
+            "width": 1200,
+            "height": 850
+          }
+        },
+        "width": 600,
+        "height": 425
+      },
+      {
+        "id": 174978655,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/666c0ac5880c45dc3e03edf650ad23ac.jpg",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/666c0ac5880c45dc3e03edf650ad23ac.jpg",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/666c0ac5880c45dc3e03edf650ad23ac.jpg",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/666c0ac5880c45dc3e03edf650ad23ac.jpg",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/666c0ac5880c45dc3e03edf650ad23ac.jpg"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 600,
+            "height": 425
+          },
+          "max_1240": {
+            "width": 1200,
+            "height": 850
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 850
+          },
+          "original": {
+            "width": 1200,
+            "height": 850
+          }
+        },
+        "width": 600,
+        "height": 425
+      },
+      {
+        "id": 174978657,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/65837610ccd8c83237ba4b7a8eeace92.jpg",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/65837610ccd8c83237ba4b7a8eeace92.jpg",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/65837610ccd8c83237ba4b7a8eeace92.jpg",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/65837610ccd8c83237ba4b7a8eeace92.jpg",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/65837610ccd8c83237ba4b7a8eeace92.jpg"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 600,
+            "height": 425
+          },
+          "max_1240": {
+            "width": 1200,
+            "height": 850
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 850
+          },
+          "original": {
+            "width": 1200,
+            "height": 850
+          }
+        },
+        "width": 600,
+        "height": 425
+      },
+      {
+        "id": 174978659,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/16a7357ec8ce0a19125aa70cd473d5d1.jpg",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/16a7357ec8ce0a19125aa70cd473d5d1.jpg",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/16a7357ec8ce0a19125aa70cd473d5d1.jpg",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/16a7357ec8ce0a19125aa70cd473d5d1.jpg",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/16a7357ec8ce0a19125aa70cd473d5d1.jpg"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 600,
+            "height": 425
+          },
+          "max_1240": {
+            "width": 1200,
+            "height": 850
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 850
+          },
+          "original": {
+            "width": 1200,
+            "height": 850
+          }
+        },
+        "width": 600,
+        "height": 425
+      },
+      {
+        "id": 174978661,
+        "type": "image",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/fce06756465f65d23e461ae03b9099b4.jpg",
+        "sizes": {
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/fce06756465f65d23e461ae03b9099b4.jpg",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/fce06756465f65d23e461ae03b9099b4.jpg",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/fce06756465f65d23e461ae03b9099b4.jpg",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/fce06756465f65d23e461ae03b9099b4.jpg"
+        },
+        "dimensions": {
+          "disp": {
+            "width": 600,
+            "height": 425
+          },
+          "max_1240": {
+            "width": 1200,
+            "height": 850
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 850
+          },
+          "original": {
+            "width": 1200,
+            "height": 850
+          }
+        },
+        "width": 600,
+        "height": 425
+      },
+      {
+        "id": 175813303,
+        "type": "text",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "text": "<div style=\"text-align: center;\"><span style=\"color:#ABABAB;\">These are the initial sketches we came up with for different innovations.</span></div>",
+        "text_plain": "These are the initial sketches we came up with for different innovations."
+      },
+      {
+        "id": 175813305,
+        "type": "image",
+        "full_bleed": 1,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/d5bf764cb00693634d38326d49ac1e21.jpg",
+        "sizes": {
+          "1400": "https://m2.behance.net/rendition/pm/26782843/1400/d5bf764cb00693634d38326d49ac1e21.jpg",
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/d5bf764cb00693634d38326d49ac1e21.jpg",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/d5bf764cb00693634d38326d49ac1e21.jpg",
+          "max_1920": "https://m2.behance.net/rendition/pm/26782843/fs/d5bf764cb00693634d38326d49ac1e21.jpg",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/d5bf764cb00693634d38326d49ac1e21.jpg",
+          "max_3840": "https://m2.behance.net/rendition/pm/26782843/max_3840/d5bf764cb00693634d38326d49ac1e21.jpg",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/d5bf764cb00693634d38326d49ac1e21.jpg"
+        },
+        "dimensions": {
+          "1400": {
+            "width": 1400,
+            "height": 933
+          },
+          "disp": {
+            "width": 600,
+            "height": 400
+          },
+          "max_1240": {
+            "width": 1240,
+            "height": 826
+          },
+          "max_1920": {
+            "width": 1920,
+            "height": 1280
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 800
+          },
+          "max_3840": {
+            "width": 3840,
+            "height": 2560
+          },
+          "original": {
+            "width": 5184,
+            "height": 3456
+          }
+        },
+        "width": 600,
+        "height": 400
+      },
+      {
+        "id": 175811639,
+        "type": "text",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "text": "<div style=\"text-align: center;\"> </div><div style=\"text-align: center;\"><span style=\"color:#ABABAB;\">This was the initial wireframe for the project.</span></div>",
+        "text_plain": " This was the initial wireframe for the project."
+      },
+      {
+        "id": 175811643,
+        "type": "image",
+        "full_bleed": 1,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/a1638d8de856b1425eda45e1c4875991.png",
+        "sizes": {
+          "1400": "https://m2.behance.net/rendition/pm/26782843/1400/a1638d8de856b1425eda45e1c4875991.png",
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/a1638d8de856b1425eda45e1c4875991.png",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/a1638d8de856b1425eda45e1c4875991.png",
+          "max_1920": "https://m2.behance.net/rendition/pm/26782843/fs/a1638d8de856b1425eda45e1c4875991.png",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/a1638d8de856b1425eda45e1c4875991.png",
+          "max_3840": "https://m2.behance.net/rendition/pm/26782843/max_3840/a1638d8de856b1425eda45e1c4875991.png",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/a1638d8de856b1425eda45e1c4875991.png"
+        },
+        "dimensions": {
+          "1400": {
+            "width": 1400,
+            "height": 382
+          },
+          "disp": {
+            "width": 600,
+            "height": 163
+          },
+          "max_1240": {
+            "width": 1240,
+            "height": 338
+          },
+          "max_1920": {
+            "width": 1920,
+            "height": 524
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 327
+          },
+          "max_3840": {
+            "width": 2196,
+            "height": 600
+          },
+          "original": {
+            "width": 2196,
+            "height": 600
+          }
+        },
+        "width": 600,
+        "height": 163
+      },
+      {
+        "id": 174978649,
+        "type": "text",
+        "full_bleed": 0,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "text": "<div> </div><div style=\"text-align: center;\"><span style=\"color:#ABABAB;\">This is a sitemap we created as a guide throughout the project.</span></div>",
+        "text_plain": " This is a sitemap we created as a guide throughout the project."
+      },
+      {
+        "id": 174978135,
+        "type": "image",
+        "full_bleed": 1,
+        "alignment": "center",
+        "caption_alignment": "left",
+        "src": "https://m2.behance.net/rendition/pm/26782843/disp/b2a795bb38ddd798beeb1764466fbefc.png",
+        "sizes": {
+          "1400": "https://m2.behance.net/rendition/pm/26782843/1400/b2a795bb38ddd798beeb1764466fbefc.png",
+          "disp": "https://m2.behance.net/rendition/pm/26782843/disp/b2a795bb38ddd798beeb1764466fbefc.png",
+          "max_1240": "https://m2.behance.net/rendition/pm/26782843/hd/b2a795bb38ddd798beeb1764466fbefc.png",
+          "max_1920": "https://m2.behance.net/rendition/pm/26782843/fs/b2a795bb38ddd798beeb1764466fbefc.png",
+          "max_1200": "https://m2.behance.net/rendition/pm/26782843/max_1200/b2a795bb38ddd798beeb1764466fbefc.png",
+          "max_3840": "https://m2.behance.net/rendition/pm/26782843/max_3840/b2a795bb38ddd798beeb1764466fbefc.png",
+          "original": "https://m2.behance.net/rendition/pm/26782843/orig/b2a795bb38ddd798beeb1764466fbefc.png"
+        },
+        "dimensions": {
+          "1400": {
+            "width": 1400,
+            "height": 1069
+          },
+          "disp": {
+            "width": 600,
+            "height": 458
+          },
+          "max_1240": {
+            "width": 1240,
+            "height": 946
+          },
+          "max_1920": {
+            "width": 1920,
+            "height": 1466
+          },
+          "max_1200": {
+            "width": 1200,
+            "height": 916
+          },
+          "max_3840": {
+            "width": 3840,
+            "height": 2932
+          },
+          "original": {
+            "width": 15101,
+            "height": 11531
+          }
+        },
+        "width": 600,
+        "height": 458
+      }
+    ],
+    "short_url": "http://on.be.net/1Qijgp2",
+    "copyright": {
+      "license": "no-use",
+      "description": "No-use",
+      "license_id": 7
+    },
+    "tools": [],
+    "styles": {
+      "text": {
+        "title": {
+          "font_family": "arial,helvetica,sans-serif",
+          "font_weight": "bold",
+          "color": "#3B3B3B",
+          "text_align": "left",
+          "line_height": "1.4em",
+          "font_size": "16px",
+          "text_decoration": "none",
+          "font_style": "normal",
+          "display": "inline"
+        },
+        "subtitle": {
+          "font_family": "arial,helvetica,sans-serif",
+          "font_weight": "normal",
+          "color": "#3B3B3B",
+          "text_align": "left",
+          "line_height": "1.4em",
+          "font_size": "14px",
+          "text_decoration": "none",
+          "font_style": "normal",
+          "display": "inline"
+        },
+        "paragraph": {
+          "font_family": "arial,helvetica,sans-serif",
+          "font_weight": "normal",
+          "color": "#3B3B3B",
+          "text_align": "left",
+          "line_height": "1.4em",
+          "font_size": "14px",
+          "text_decoration": "none",
+          "font_style": "normal",
+          "display": "inline"
+        },
+        "caption": {
+          "font_family": "arial,helvetica,sans-serif",
+          "font_weight": "normal",
+          "color": "#3B3B3B",
+          "text_align": "left",
+          "line_height": "1.4em",
+          "font_size": "11px",
+          "text_decoration": "none",
+          "font_style": "italic",
+          "display": "block"
+        },
+        "link": {
+          "font_family": "arial,helvetica,sans-serif",
+          "font_weight": "normal",
+          "color": "#1769FF",
+          "text_align": "left",
+          "line_height": "1.4em",
+          "font_size": "14px",
+          "text_decoration": "none",
+          "font_style": "normal",
+          "display": "inline"
+        }
+      },
+      "background": {
+        "color": "333333"
+      },
+      "spacing": {
+        "project": {
+          "top_margin": 100
+        },
+        "modules": {
+          "bottom_margin": 41
+        }
+      },
+      "dividers": {
+        "display": "none"
+      }
+    }
+  },
+  "http_code": 200
+}

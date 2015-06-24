@@ -1,7 +1,12 @@
-<h1 class="heading -large">{{ home.title }}</h1>
+<h1>Home</h1>
+<section> 
+<div ng-controller="BehanceCtrl">
 
-<h3 class="heading -medium">Here is a fancy number served up courtesy of Angular: <span class="number-example">{{ home.number }}</span></h3>
-
-<img src="images/angular.png" height="100" example-directive />
-<img src="images/gulp.png" height="100" />
-<img src="images/browserify.png" height="100" />
+<ul>
+  <li ng-repeat="image in images">
+    <img src="{{ images.project.modules[0].src }}"/>
+  </li>
+</ul>
+        
+  </div>
+</section>

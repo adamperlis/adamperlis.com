@@ -11,8 +11,14 @@
       <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+      <a href="Home">Home</a>
+      <a href="project1">1</a>
+      <a href="project2">2</a>
+      <a href="project3">3</a>
+      <a href="project4">4</a>
+      <a href="project5">5</a>
 
-      <div ui-view></div>
+      <div class="slide" ui-view='default' ng-class="{ 'back': back }"></div>
 
       <script src="js/main.js"></script>
   </body>
