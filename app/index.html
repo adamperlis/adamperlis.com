@@ -11,14 +11,16 @@
       <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-      <a href="Home">Home</a>
-      <a href="project1">1</a>
-      <a href="project2">2</a>
-      <a href="project3">3</a>
-      <a href="project4">4</a>
-      <a href="project5">5</a>
+      <a ui-sref="home">Home</a>
+      <a ui-sref="project1">1</a>
+      <a ui-sref="project2">2</a>
+      <a ui-sref="project3">3</a>
+      <a ui-sref="project4">4</a>
+      <a ui-sref="project5">5</a>
 
-      <div class="slide" ui-view='default' ng-class="{ 'back': back }"></div>
+      <div class="viewWrap" ng-controller="viewCtrl">
+        <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
+      </div>
 
       <script src="js/main.js"></script>
   </body>
