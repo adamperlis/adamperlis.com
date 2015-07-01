@@ -20,18 +20,20 @@
       <div class="viewWrap" ng-controller="viewCtrl">
         <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
      
-
-        <div ng-hide="currentPath === '/'">
-          <ul>
-            <li id="project1" class="animated fadeInUp"><a ui-sref="project1">1</a></li>
-            <li id="project2" class="animated fadeInUp"><a ui-sref="project2">2</a></li>
-            <li id="project3" class="animated fadeInUp"><a ui-sref="project3">3</a></li>
-            <li id="project4" class="animated fadeInUp"><a ui-sref="project4">4</a></li>
-            <li id="project5" class="animated fadeInUp"><a ui-sref="project5">5</a></li>
-          </ul>
+       <div class="row">
+        <div class="col-sm-offset-11 col-sm-1">
+            <div class="vertical-center" ng-hide="currentPath === '/'">
+              <ul>
+                <li id="project1" class="animated fadeInUp"><a ui-sref="project1">1</a></li>
+                <li id="project2" class="animated fadeInUp"><a ui-sref="project2">2</a></li>
+                <li id="project3" class="animated fadeInUp"><a ui-sref="project3">3</a></li>
+                <li id="project4" class="animated fadeInUp"><a ui-sref="project4">4</a></li>
+                <li id="project5" class="animated fadeInUp"><a ui-sref="project5">5</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-
 
       <script src="js/main.js"></script>
 
