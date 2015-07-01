@@ -2,7 +2,7 @@
 
 var controllersModule = require('./_index');
 
-controllersModule.controller('viewCtrl', ['$scope', '$state', function($scope, $state) {
+controllersModule.controller('viewCtrl', ['$scope', '$state', '$location', function($scope, $state, $location) {
 
 $scope.$on('$stateChangeSuccess', function (event, toState) {
   if (toState.name === 'home') {
@@ -10,5 +10,10 @@ $scope.$on('$stateChangeSuccess', function (event, toState) {
     } else {
      $scope.back = false; 
     }
+
+  $scope.currentPath = $location.path();
   });
+
+
+
 }]);

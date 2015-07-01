@@ -12,7 +12,7 @@
  		url: '/',
  		views: {
  			'default': {
-		 		controller: ['BehanceCtrl as home', 'viewCtrl'],
+		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'home.html'
  			}
  		},

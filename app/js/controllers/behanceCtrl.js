@@ -45,7 +45,6 @@ controllersModule.controller('BehanceCtrl', ['$scope', '$http', function($scope,
   // $scope.projectsData = projectsDataRaw;
   // // console.log($scope.projectsData);
   // return $scope.projectsData;
-  // --------------------UNCOMMENT THIS WHEN READY
 
 }]);
 

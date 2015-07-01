@@ -1,15 +1,52 @@
 @import 'vars';
-@import 'typography';
 
-body {
-  font-family: Helvetica, sans-serif;
-  color: $font-color--dark;
-  background-color: $background--light;
-  padding: $half-space;
+@font-face {
+    font-family: GothamBlack;
+    src: url(/fonts/gotham-black-webfont.eot) format('eot');
 }
 
-li{
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+
+body {
+  font-family: GothamBlack;
+  color: black;
+  background-color: rgb(240, 240, 240) ;
+  text-align: center;
+}
+
+li { 
 	list-style:none;
+}
+
+.title{
+	font-size: 80px;
+	 margin: 0 auto;
+	 color:white;
+}
+
+.subtitle{
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 1px;
+	color:white;
+
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper img{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
 }
 
 .slide {
@@ -19,15 +56,15 @@ li{
 
 .slide.ng-enter,
 .slide.ng-leave {
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
+  -webkit-transition: 1s cubic-bezier(.55,0,.1,1) all;
+  transition: 1s cubic-bezier(.55,0,.1,1) all;
 }
 
 .slide.ng-enter {
-  -webkit-transform: translate3d(100%, 0, 0);
+  -webkit-transform: translate3d(0, 100%, 0);
 }
 .slide.ng-leave.ng-leave-active {
-  -webkit-transform: translate3d(100%, 0, 0);
+  -webkit-transform: translate3d(0, 100%, 0);
 }
 .back.slide.ng-enter {
   -webkit-transform: translate3d(-100%, 0, 0);
@@ -39,3 +76,27 @@ li{
 .slide.ng-enter.ng-enter-active {
   -webkit-transform: translate3d(0, 0, 0);
 }
+
+#project1{
+	-webkit-animation-delay: .75s;
+}
+
+#project2{
+	-webkit-animation-delay: .85s;
+}
+
+#project3{
+	-webkit-animation-delay: .95s;
+}
+
+#project4{
+	-webkit-animation-delay: 1s;
+}
+
+#project5{
+	-webkit-animation-delay: 1.05s;
+}
+
+
+
+
