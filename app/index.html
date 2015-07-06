@@ -14,8 +14,20 @@
       <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-      <a ui-sref="home">Home</a>
-      <a ui-sref="project1">Work</a>
+
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <a class="navbar-brand" ui-sref="home">Home</a>
+        </a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a ui-sref="project1">Work</a></li>
+      </ul>
+      </div>
+    </nav>
+     
 
       <div class="viewWrap" ng-controller="viewCtrl">
         <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
@@ -23,7 +35,7 @@
        <div class="row">
         <div class="col-sm-offset-11 col-sm-1">
             <div class="vertical-center" ng-hide="currentPath === '/'">
-              <ul>
+              <ul class="projectNum">
                 <li id="project1" class="animated fadeInUp"><a ui-sref="project1">1</a></li>
                 <li id="project2" class="animated fadeInUp"><a ui-sref="project2">2</a></li>
                 <li id="project3" class="animated fadeInUp"><a ui-sref="project3">3</a></li>
