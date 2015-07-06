@@ -15,14 +15,12 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top" ng-class="{{ containerClass }}">>
       <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <a class="navbar-brand" ui-sref="home">Home</a>
-        </a>
+        <a class="navbar-brand" ui-sref="home">Home</a>
       </div>
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" ng-class="{{ containerClass }}">
         <li><a ui-sref="project1">Work</a></li>
       </ul>
       </div>
