@@ -79,6 +79,18 @@
  		title: 'project5'
  	});
 
+ 	$stateProvider
+ 	.state('about', {
+ 		url: '/about',
+ 		views: {
+ 			'default': {
+		 		controller: 'BehanceCtrl as home',
+		 		templateUrl: 'about.html'
+		 	}
+ 		},
+ 		title: 'about'
+ 	});
+
  	$urlRouterProvider.otherwise('/');
 
  }
