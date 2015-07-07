@@ -11,7 +11,8 @@
 body {
 	font-family: GothamBlack;
 	color: black;
-	background-color: rgb(240, 240, 240) ;
+	background-color: rgb(240, 240, 240);
+	transition:1s all;
 }
 
 li { 
@@ -59,12 +60,51 @@ li {
 	letter-spacing: 2px;
 }
 
+.subtitle{
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 1px;
+	color:white;
+	margin:0 auto;
+}
+
+.title-invert{
+	font-size: 80px;
+	margin: 0 auto;
+	color:rgb(68, 68, 68);
+	letter-spacing: 2px;
+}
+
+.subtitle-invert {
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 1px;
+		color:rgb(68, 68, 68);
+	margin:0 auto;
+}
+
 .mainTitle {
 	font-size: 80px;
 	margin: 0 auto;
 	color:rgb(68, 68, 68);
 	letter-spacing: 2px;
 }
+
+.purple{
+	background:#5F6F81;
+	transition: .5s all;
+}
+
+.green{
+	background:rgb(101, 198, 187);
+	transition: .5s all;
+}
+
+
 
 .navbar a {
 	color:black;
@@ -104,16 +144,6 @@ svg:hover {
 
 .navbar a:hover {
 	color:gray;
-}
-
-.subtitle{
-	font-family: 'Arvo', serif;
-	font-size: 20px;
-	font-weight: 100;
-	font-style: italic;
-	letter-spacing: 1px;
-	color:white;
-	margin:0 auto;
 }
 
 .about{
@@ -164,23 +194,29 @@ svg:hover {
 .slide.ng-leave {
 	-webkit-transition: 1s cubic-bezier(.55,0,.1,1) all;
 	transition: 1s cubic-bezier(.55,0,.1,1) all;
+	opacity:0;
 }
 
 .slide.ng-enter {
 	-webkit-transform: translate3d(0, 100%, 0);
+	opacity:0;
 }
 .slide.ng-leave.ng-leave-active {
 	-webkit-transform: translate3d(0, 100%, 0);
+	opacity:1;
 }
 .back.slide.ng-enter {
 	-webkit-transform: translate3d(-100%, 0, 0);
+	opacity:1;
 }
 .back.slide.ng-leave.ng-leave-active {
 	-webkit-transform: translate3d(-100%, 0, 0);
+	opacity:1;
 }
 .slide.ng-leave,
 .slide.ng-enter.ng-enter-active {
 	-webkit-transform: translate3d(0, 0, 0);
+	opacity:1;
 }
 
 .projectNum li {
