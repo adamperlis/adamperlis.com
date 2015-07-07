@@ -15,7 +15,7 @@
 </head>
 <body ng-class="{purple: $state.includes('project3'), green: $state.includes('project4')} ">
 
-  <nav class="navbar navbar-fixed-top" ng-class="{navbarInvert: $state.includes('project1')}">
+  <nav class="navbar navbar-fixed-top" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2') }">
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" ui-sref="home">
@@ -31,7 +31,7 @@
           </svg>
     </a>
   </div>
-  <ul class="nav navbar-nav" ng-class="{navbarInvert: $state.includes('project1')}">
+  <ul class="nav navbar-nav" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2')}">
     <li><a ui-sref="project1">Work</a></li>
     <li><a ui-sref="about">About</a></li>
   </ul>

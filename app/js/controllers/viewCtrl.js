@@ -14,6 +14,12 @@ $scope.$on('$stateChangeSuccess', function (event, toState) {
     }
 
     if (toState.name === 'project1') {
+     $scope.navbarInvert = true; 
+    } else {
+     $scope.navbarInvert = false; 
+    }
+
+    if (toState.name === 'project2') {
      $scope.invert = true; 
     } else {
      $scope.invert = false; 
