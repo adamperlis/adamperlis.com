@@ -27,7 +27,7 @@ li {
 }
 
 .next-prev {
-	 padding-top: 37%;
+	 padding-top: 34%;
 	 transition:.25s all;
 }
 
@@ -36,7 +36,7 @@ li {
 }
 
 .next-prev svg {
-	width:130px;
+	width:80px;
 }
 
 .next{
@@ -118,6 +118,16 @@ li {
   text-align: center;
 }
 
+.grey{
+	background:rgb(51, 51, 51);
+	transition: .5s all;
+}
+
+.black{
+	background:black;
+	transition: .5s all;
+}
+
 .purple{
 	background:#5F6F81;
 	transition: .5s all;
@@ -127,6 +137,12 @@ li {
 	background:rgb(101, 198, 187);
 	transition: .5s all;
 }
+
+.lightGray{
+	background:#D2D2D2;
+	transition: .5s all;
+}
+
 
 
 
@@ -216,6 +232,13 @@ svg:hover {
 	position: absolute;
 	width: 100%;
 	z-index: -1;
+}
+
+.profile{
+	border-radius: 150px;
+  position: absolute;
+  top: 330px;
+  width: 100px;
 }
 
 .slide {
@@ -409,6 +432,11 @@ svg:hover {
 	opacity:.5;
 }
 
+.scroll-down{
+	position: absolute;
+  top: 90%;
+}
+
 @keyframes move{
 	0%  { top: 100px; opacity:0;}
 	5%  { top: 0px; opacity:1;}
@@ -458,6 +486,56 @@ svg:hover {
     70% { top: -135px; opacity:1;}
     90% { top: -175px; opacity:1;}
     95% { top: -190px; opacity:0;}
+}
+
+
+@-webkit-keyframes bounce {
+  0%{
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+@keyframes bounce {
+  0%{
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function:ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function:ease-in;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
 }
 
 

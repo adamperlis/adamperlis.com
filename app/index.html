@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body ng-class="{purple: $state.includes('project3'), green: $state.includes('project4')} ">
+<body ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), lightGray: $state.includes('project5')} ">
 
   <nav class="navbar navbar-fixed-top" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2') }">
     <div class="container">
@@ -38,48 +38,61 @@
   </div>
 </nav>
 
+<div class="row">
+  <div class="viewWrap" ng-controller="viewCtrl">
+    <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
+    <div ng-hide="currentPath === '/' || currentPath=== '/about'">
 
-<div class="viewWrap" ng-controller="viewCtrl">
-  <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
-  <div ng-hide="currentPath === '/' || currentPath=== '/about'">
-    
-  <div class="row">
-    <div class="col-sm-offset-11 col-sm-1">
-      <ul class="projectNum">
-        <li id="project1" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project1')}" ui-sref="project1">1</a></li>
-        <li id="project2" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project2')}" ui-sref="project2">2</a></li>
-        <li id="project3" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project3')}" ui-sref="project3">3</a></li>
-        <li id="project4" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project4')}" ui-sref="project4">4</a></li>
-        <li id="project5" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project5')}" ui-sref="project5">5</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="row">
-      <div class="col-sm-4"></div>
-      <div class="col-sm-2 next-prev">
-          <svg class="prev" ng-click="prev()" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-            <g>
-              <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="37,15 20,32 
-              37,49   "/>
-            </g>
-          </svg>
+      <div class="row">
+        <div class="col-sm-offset-11 col-sm-1">
+          <ul class="projectNum">
+            <li id="project1" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project1')}" ui-sref="project1">1</a></li>
+            <li id="project2" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project2')}" ui-sref="project2">2</a></li>
+            <li id="project3" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project3')}" ui-sref="project3">3</a></li>
+            <li id="project4" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project4')}" ui-sref="project4">4</a></li>
+            <li id="project5" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project5')}" ui-sref="project5">5</a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="col-sm-2 next-prev">
-          <svg version="1.1" ng-click="next()" class="next" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-            <g>
-              <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="27,15 44,32 
-              27,49   "/>
-            </g>
-          </svg>
-      </div>
-      <div class="col-sm-4"></div>
-    </div>
-  </div>
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-2 next-prev">
+            <svg class="prev" ng-click="prev()" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+              <g>
+                <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="37,15 20,32 
+                37,49   "/>
+              </g>
+            </svg>
+        </div>
 
+        <div class="col-sm-2 next-prev">
+            <svg version="1.1" ng-click="next()" class="next" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+              <g>
+                <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="27,15 44,32 
+                27,49   "/>
+              </g>
+            </svg>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-offset-6 scroll-down">
+          <svg class="animated infinite bounce" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <g>
+            <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="49.5,23.5 
+              32.5,40.5 15.5,23.5   "/>
+          </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 

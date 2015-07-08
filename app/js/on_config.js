@@ -12,7 +12,6 @@
  		url: '/',
  		views: {
  			'default': {
-		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'home.html'
  			}
  		},
@@ -24,7 +23,6 @@
  		url: '/project1', 
  		views: {
  			'default': {
-		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'project1.html'
 		 	}
  		},
@@ -36,7 +34,6 @@
  		url: '/project2',
  		views: {
  			'default': {
-		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'project2.html'
 		 	}
  		},
@@ -48,7 +45,6 @@
  		url: '/project3',
  		views: {
  			'default': {
-		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'project3.html'
 		 	}
  		},
@@ -60,7 +56,6 @@
  		url: '/project4',
  		views: {
  			'default': {
-		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'project4.html'
 		 	}
  		},
@@ -72,7 +67,6 @@
  		url: '/project5',
  		views: {
  			'default': {
-		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'project5.html'
 		 	}
  		},
@@ -84,7 +78,6 @@
  		url: '/about',
  		views: {
  			'default': {
-		 		controller: 'BehanceCtrl as home',
 		 		templateUrl: 'about.html'
 		 	}
  		},

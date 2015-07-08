@@ -42,44 +42,6 @@ $scope.$on('$stateChangeSuccess', function (event, toState) {
         $scope.back = false; 
     }
 
-    if (toState.name === 'project1') {
-        $scope.navbarInvert = true;
-        $scope.focus = true; 
-    } else {
-        $scope.navbarInvert = false;
-        $scope.focus = false;  
-    }
-
-    if (toState.name === 'project2') {
-        $scope.invert = true;
-        $scope.focus = true; 
-    } else {
-        $scope.invert = false;
-        $scope.focus = false; 
-    }
-
-    if (toState.name === 'project3') {
-        $scope.purple = true;
-        $scope.focus = true; 
-    } else {
-        $scope.purple = false;
-        $scope.focus = false; 
-    }
-
-    if (toState.name === 'project4') {
-        $scope.green = true;
-        $scope.focus = true; 
-    } else {
-        $scope.green = false;
-        $scope.focus = false; 
-    }
-
-    if (toState.name === 'project5') {
-        $scope.focus = true; 
-    } else {
-        $scope.focus = false; 
-    }
-
   $scope.currentPath = $location.path();
   });
 
