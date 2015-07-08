@@ -92,6 +92,18 @@ li {
 	margin:0 auto;
 }
 
+.more-work{
+	font-family: 'Arvo', serif;
+	font-size: 18px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 1px;
+	color:rgb(68, 68, 68);
+	margin:0 auto;
+	transition:.5s all;
+	-webkit-animation-delay:1s;
+}
+
 .title-invert{
 	font-size: 80px;
 	margin: 0 auto;
@@ -105,7 +117,7 @@ li {
 	font-weight: 100;
 	font-style: italic;
 	letter-spacing: 1px;
-		color:rgb(68, 68, 68);
+	color:rgb(68, 68, 68);
 	margin:0 auto;
 }
 
