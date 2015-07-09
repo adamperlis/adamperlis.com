@@ -73,6 +73,56 @@ li {
   position: absolute;
 }
 
+.history{
+	background: url('../../images/basic_spread_text.svg') no-repeat center center;
+  z-index: -2;
+  background-size: 480px;
+  opacity: .25;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.future{
+	background: url('../../images/basic_eye.svg') no-repeat center center;
+  z-index: -2;
+  background-size: 480px;
+  opacity: .25;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.podium{
+	background: url('../../images/basic_display.svg') no-repeat center center;
+  z-index: -2;
+  background-size: 380px;
+  opacity: .25;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.pickle{
+	background: url('../../images/basic_signs.svg') no-repeat center center;
+  z-index: -2;
+  background-size: 380px;
+  opacity: .25;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.moto{
+	background: url('../../images/basic_smartphone.svg') no-repeat center center;
+  z-index: -2;
+  background-size: 380px;
+  opacity: .25;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .title {
 	font-size: 140px;
   margin: 0 auto;
