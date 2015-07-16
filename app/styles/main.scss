@@ -7,6 +7,124 @@
 
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
 
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+and (min-width : 320px) 
+and (max-width : 568px) {
+		
+		.nav {
+			padding-left:30px;
+		}
+
+		.nav>li {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.jumbotron h1 {
+			font-size: 38px !important;
+		}
+
+		.title-invert {
+		  margin: 0 auto;
+		  letter-spacing: -2px !important;
+		  width: 320px !important; 
+		  text-align: center;
+		  color: #444444 !important;
+		}
+
+		.title {
+			font-size: 38px !important;
+		  margin: 0 auto;
+		  color: white;
+		  letter-spacing: -2px !important;
+		  width: 320px !important;
+		  text-align:center;
+		}
+
+		.subtitle{
+			padding-top: 20px;
+		}
+
+		.history {
+		  background: url('../../images/basic_spread_text.svg') no-repeat center center;
+		  z-index: -2;
+		  background-size: 270px !important;
+		  opacity: .25;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		}
+
+		.future{
+			background: url('../../images/basic_eye.svg') no-repeat center center;
+		  z-index: -2;
+		  background-size: 270px !important;
+		  opacity: .25;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		}
+
+		.podium{
+			background: url('../../images/basic_display.svg') no-repeat center center;
+		  z-index: -2;
+		  background-size: 270px !important;
+		  opacity: .25;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		}
+
+		.pickle{
+			background: url('../../images/basic_signs.svg') no-repeat center center;
+		  z-index: -2;
+		  background-size: 270px !important;
+		  opacity: .25;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		}
+
+		.moto {
+			background: url('../../images/basic_smartphone.svg') no-repeat center center;
+		  z-index: -2;
+		  background-size: 270px !important;
+		  opacity: .25;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		}
+}
+
+@media screen 
+and (min-width : 768px) 
+and (max-width : 1024px) { 
+		.nav {
+			padding-left:30px;
+		}
+
+		.nav>li {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.jumbotron h1 {
+			font-size: 90px !important;
+		}
+
+		.title-invert {
+		  margin: 0 auto;
+		  letter-spacing: -2px !important;
+		  width: 768px !important; 
+		  text-align: center;
+		  color: #444444 !important;
+		}
+}
+
+
 body {
 	font-family: GothamBlack;
 	color: black;
@@ -113,7 +231,7 @@ li {
   position: absolute;
 }
 
-.moto{
+.moto {
 	background: url('../../images/basic_smartphone.svg') no-repeat center center;
   z-index: -2;
   background-size: 380px;
@@ -132,7 +250,7 @@ li {
   text-align:center;
 }
 
-.subtitle{
+.subtitle {
 	font-family: 'Arvo', serif;
 	font-size: 20px;
 	font-weight: 100;
@@ -142,7 +260,7 @@ li {
 	margin:0 auto;
 }
 
-.more-work{
+.more-work {
 	font-family: 'Arvo', serif;
 	font-size: 18px;
 	font-weight: 100;
@@ -154,13 +272,16 @@ li {
 	-webkit-animation-delay:1s;
 }
 
-.title-invert{
+.jumbotron h1 {
 	font-size: 140px;
+}
+
+.title-invert{
   margin: 0 auto;
   letter-spacing: -5px;
   width: 1020px;
   text-align:center;
-	color:rgb(68, 68, 68);
+	color:rgb(68, 68, 68) !important;
 }
 
 .subtitle-invert {
@@ -206,9 +327,6 @@ li {
 	background:#D2D2D2;
 	transition: .5s all;
 }
-
-
-
 
 .navbar a {
 	color:black;
@@ -308,6 +426,7 @@ svg:hover {
 .slide {
 	position: absolute;
 	width: 100%;
+	margin:0 auto;
 }
 
 .slide.ng-enter,
@@ -431,7 +550,7 @@ svg:hover {
 }
 
 .text-rotator {
-  padding: 2em 5em;
+  padding: 2em;
   font-family: 'Arvo', serif;
 	font-size: 20px;
 	font-weight: 100;

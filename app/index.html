@@ -17,7 +17,7 @@
 
   <nav class="navbar navbar-fixed-top" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2') }">
     <div class="container">
-      <div class="navbar-header">
+      <div class="navbar-header pull-left">
         <a class="navbar-brand" ui-sref="home">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           viewBox="0 0 400 400" enable-background="new 0 0 400 400" id="logoSVG" xml:space="preserve">
@@ -31,14 +31,14 @@
         </svg>
       </a>
     </div>
-    <ul class="nav navbar-nav" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2')}">
+    <ul class="nav navbar-nav pull-left" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2')}">
       <li><a ui-sref="project1">Work</a></li>
       <li><a ui-sref="about">About</a></li>
     </ul>
   </div>
 </nav>
 
-<div class="row">
+<div class="row" style="position:relative">
   <div class="viewWrap" ng-controller="viewCtrl">
     <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
     <div ng-hide="currentPath === '/' || currentPath=== '/about'">
