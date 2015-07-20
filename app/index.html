@@ -13,9 +13,9 @@
 
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), lightGray: $state.includes('project5')} ">
+<body ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), lightGray: $state.includes('project5')}">
 
-  <nav class="navbar navbar-fixed-top" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2') }">
+  <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), motoInvert: $state.includes('project5')}">
     <div class="container">
       <div class="navbar-header pull-left">
         <a class="navbar-brand" ui-sref="home">
@@ -31,7 +31,7 @@
         </svg>
       </a>
     </div>
-    <ul class="nav navbar-nav pull-left" ng-class="{navbarInvert: $state.includes('project1'), invert: $state.includes('project2')}">
+    <ul class="nav navbar-nav pull-left">
       <li><a ui-sref="project1">Work</a></li>
       <li><a ui-sref="about">About</a></li>
     </ul>
@@ -44,7 +44,7 @@
     <div ng-hide="currentPath === '/' || currentPath=== '/about'">
 
       <div class="row">
-        <div class="col-sm-offset-11 col-sm-1">
+        <div class="hidden-xs col-sm-offset-11 col-sm-1">
           <ul class="projectNum">
             <li id="project1" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project1')}" ui-sref="project1">1</a></li>
             <li id="project2" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project2')}" ui-sref="project2">2</a></li>
@@ -56,8 +56,8 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-2 next-prev">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-2 next-prev">
             <svg class="prev" ng-click="prev()" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
               <g>
@@ -67,7 +67,7 @@
             </svg>
         </div>
 
-        <div class="col-sm-2 next-prev">
+        <div class="col-xs-2 next-prev">
             <svg version="1.1" ng-click="next()" class="next" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
               <g>
@@ -76,11 +76,11 @@
               </g>
             </svg>
         </div>
-        <div class="col-sm-4"></div>
+        <div class="col-xs-4"></div>
       </div>
 
       <div class="row">
-        <div class="col-sm-offset-6 scroll-down">
+        <div class="col-xs-offset-6 scroll-down">
           <svg class="animated infinite bounce" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
           <g>

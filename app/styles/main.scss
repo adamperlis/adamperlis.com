@@ -56,6 +56,7 @@ and (max-width : 568px) {
 		  height: 100%;
 		  width: 100%;
 		  position: absolute;
+		  background-position-y: 35% !important;
 		}
 
 		.future{
@@ -66,6 +67,7 @@ and (max-width : 568px) {
 		  height: 100%;
 		  width: 100%;
 		  position: absolute;
+		  background-position-y: 35% !important;
 		}
 
 		.podium{
@@ -76,6 +78,7 @@ and (max-width : 568px) {
 		  height: 100%;
 		  width: 100%;
 		  position: absolute;
+		  background-position-y: 40% !important;
 		}
 
 		.pickle{
@@ -86,6 +89,7 @@ and (max-width : 568px) {
 		  height: 100%;
 		  width: 100%;
 		  position: absolute;
+		  background-position-y: 45%;
 		}
 
 		.moto {
@@ -96,6 +100,13 @@ and (max-width : 568px) {
 		  height: 100%;
 		  width: 100%;
 		  position: absolute;
+		  background-position-y: 35% !important;
+		}
+
+		.projectNum {
+		  position: fixed;
+		  right: 30px !important;
+		  top: 35% !important;
 		}
 }
 
@@ -121,6 +132,20 @@ and (max-width : 1024px) {
 		  width: 768px !important; 
 		  text-align: center;
 		  color: #444444 !important;
+		}
+
+		.title {
+			margin: 0 auto;
+		  letter-spacing: -2px !important;
+		  width: 768px !important; 
+		  text-align: center;
+		  color: white !important;
+		}
+
+		.projectNum {
+		  position: fixed;
+		  right: 30px !important;
+		  top: 48% !important;
 		}
 }
 
@@ -199,6 +224,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
+  background-position-y: 45%;
 }
 
 .future{
@@ -209,6 +235,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
+  background-position-y: 45%;
 }
 
 .podium{
@@ -219,6 +246,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
+  background-position-y: 45%;
 }
 
 .pickle{
@@ -229,6 +257,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
+  background-position-y: 45%;
 }
 
 .moto {
@@ -239,12 +268,13 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
+  background-position-y: 45%;
 }
 
 .title {
 	font-size: 140px;
   margin: 0 auto;
-  color: white;
+  color: white !important;
   letter-spacing: -5px;
   width: 1020px;
   text-align:center;
@@ -270,6 +300,10 @@ li {
 	margin:0 auto;
 	transition:.5s all;
 	-webkit-animation-delay:1s;
+}
+
+.jumbotron {
+	background: none !important;
 }
 
 .jumbotron h1 {
@@ -334,20 +368,29 @@ li {
 	transition: .25s all;
 }
 
-.navbarInvert a {
+.historyInvert {
 	color:white;
-}
-.navbarInvert svg {
 	-webkit-filter: invert(1);
 }
 
-.invert a {
+.futureInvert {
 	color:white;
-}
-.invert svg {
 	-webkit-filter: invert(1);
 }
 
+.podiumInvert {
+	color:white;
+	-webkit-filter: invert(1);
+}
+
+.pickleInvert {
+	color:white;
+	-webkit-filter: invert(1);
+}
+
+.motoInvert {
+	color:darkgray;
+}
 
 svg {
 	transition: .5s all;
