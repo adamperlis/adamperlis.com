@@ -5,6 +5,11 @@
 	src: url(/fonts/gotham-black-webfont.eot) format('eot');
 }
 
+@font-face {
+	font-family: UrbanoExtraCond;
+	src: url(/fonts/Urbano-ExtraCond-webfont.woff) format('woff');
+}
+
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -151,7 +156,7 @@ and (max-width : 1024px) {
 
 
 body {
-	font-family: GothamBlack;
+	font-family: UrbanoExtraCond;
 	color: black;
 	background-color: rgb(240, 240, 240);
 	transition:1s all;
@@ -275,7 +280,7 @@ li {
 	font-size: 140px;
   margin: 0 auto;
   color: white !important;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   width: 1020px;
   text-align:center;
 }
