@@ -34,7 +34,7 @@ and (max-width : 568px) {
 
 		.title-invert {
 		  margin: 0 auto;
-		  letter-spacing: -2px !important;
+		  /*letter-spacing: -2px !important;*/
 		  width: 320px !important; 
 		  text-align: center;
 		  color: #444444 !important;
@@ -44,7 +44,7 @@ and (max-width : 568px) {
 			font-size: 38px !important;
 		  margin: 0 auto;
 		  color: white;
-		  letter-spacing: -2px !important;
+		 /* letter-spacing: -2px !important;*/
 		  width: 320px !important;
 		  text-align:center;
 		}
@@ -133,7 +133,7 @@ and (max-width : 1024px) {
 
 		.title-invert {
 		  margin: 0 auto;
-		  letter-spacing: -2px !important;
+		  /*letter-spacing: -2px !important;*/
 		  width: 768px !important; 
 		  text-align: center;
 		  color: #444444 !important;
@@ -141,7 +141,7 @@ and (max-width : 1024px) {
 
 		.title {
 			margin: 0 auto;
-		  letter-spacing: -2px !important;
+		 /* letter-spacing: -2px !important;*/
 		  width: 768px !important; 
 		  text-align: center;
 		  color: white !important;
@@ -159,6 +159,7 @@ body {
 	font-family: UrbanoExtraCond;
 	color: black;
 	background-color: rgb(240, 240, 240);
+	overflow: hidden;
 	transition:1s all;
 }
 
@@ -174,8 +175,17 @@ li {
 	height: 230%;
 }
 
+.controls-column-center {
+  top: 80%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  z-index: 100000;
+  display: block;
+}
+
 .next-prev {
-	 padding-top: 34%;
 	 transition:.25s all;
 }
 
@@ -280,7 +290,7 @@ li {
 	font-size: 140px;
   margin: 0 auto;
   color: white !important;
-  letter-spacing: -2px;
+  letter-spacing: 11px;
   width: 1020px;
   text-align:center;
 }
@@ -317,7 +327,7 @@ li {
 
 .title-invert{
   margin: 0 auto;
-  letter-spacing: -5px;
+  letter-spacing: 11px;
   width: 1020px;
   text-align:center;
 	color:rgb(68, 68, 68) !important;
@@ -458,6 +468,22 @@ svg:hover {
 	flex-direction: column;
 }
 
+.presentation-wrapper {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.row-center{
+	position: relative;
+  height: 100%;
+}
+
+.column-center{
+	position: relative;
+  height: 100%;
+}
+
 .wrapper img{
 	position: absolute;
 	width: 100%;
@@ -473,8 +499,12 @@ svg:hover {
 
 .slide {
 	position: absolute;
-	width: 100%;
 	margin:0 auto;
+	width: 100%;
+  height: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .slide.ng-enter,
@@ -664,8 +694,7 @@ svg:hover {
 }
 
 .scroll-down{
-	position: absolute;
-  top: 90%;
+
 }
 
 @keyframes move{
