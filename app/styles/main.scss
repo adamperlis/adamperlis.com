@@ -176,13 +176,11 @@ li {
 }
 
 .controls-column-center {
-  top: 80%;
-  left: 0;
+  top: 0;
+  left: 3%;
   right: 0;
   position: absolute;
   height: 100%;
-  z-index: 100000;
-  display: block;
 }
 
 .next-prev {
@@ -261,7 +259,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-position-y: 45%;
+  background-position-y: 50%;
 }
 
 .pickle{
@@ -272,7 +270,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-position-y: 45%;
+  background-position-y: 50%;
 }
 
 .moto {
@@ -283,7 +281,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-position-y: 45%;
+  background-position-y: 50%;
 }
 
 .title {
@@ -443,6 +441,7 @@ svg:hover {
 	color:rgb(68, 68, 68);
 	margin:0 auto;
 	line-height: 30px;
+	position: relative;
 }
 
 .navbar {
@@ -461,7 +460,7 @@ svg:hover {
 
 .vertical-center {
 	min-height: 100%;
-	min-height: 100vh;
+	min-height: 80vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -492,19 +491,43 @@ svg:hover {
 
 .profile{
 	border-radius: 150px;
-  position: absolute;
   top: 330px;
   width: 100px;
+  margin-bottom: 40px;
 }
 
 .slide {
-	position: absolute;
+	position: relative;
 	margin:0 auto;
 	width: 100%;
   height: 100%;
 	bottom: 0;
-	left: 0;
+	left: 3%;
 	right: 0;
+}
+
+.controls-column-center.ng-enter,
+.controls-column-center.ng-leave {
+	-webkit-transition: 1s cubic-bezier(.55,0,.1,1) all;
+	transition: 1s cubic-bezier(.55,0,.1,1) all;
+	opacity:1;
+}
+
+.controls-column-center.ng-enter {
+	opacity:1;
+}
+.controls-column-center.ng-leave.ng-leave-active {
+	opacity:1;
+}
+.back.controls-column-center.ng-enter {
+	opacity:1;
+}
+.back.controls-column-center.ng-leave.ng-leave-active {
+	opacity:1;
+}
+.controls-column-center.ng-leave,
+.controls-column-center.ng-enter.ng-enter-active {
+	opacity:1;
 }
 
 .slide.ng-enter,
@@ -694,7 +717,7 @@ svg:hover {
 }
 
 .scroll-down{
-
+	padding-top:100px;
 }
 
 @keyframes move{
