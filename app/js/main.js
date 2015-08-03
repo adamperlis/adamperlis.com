@@ -9,8 +9,6 @@ require('./templates');
 require('./controllers/_index');
 require('./services/_index');
 require('./directives/_index');
-require('shifty');
-require('./Scroller.js');
 
 
 // create and bootstrap application
