@@ -61,7 +61,6 @@ and (max-width : 568px) {
 		  height: 100%;
 		  width: 100%;
 		  position: absolute;
-		  background-position-y: 35% !important;
 		}
 
 		.future{
@@ -156,10 +155,10 @@ and (max-width : 1024px) {
 
 
 body {
-	font-family: UrbanoExtraCond;
+	font-family: Arvo;
 	color: black;
 	background-color: rgb(240, 240, 240);
-	overflow: hidden;
+/*	overflow: hidden;*/
 	transition:1s all;
 }
 
@@ -176,11 +175,12 @@ li {
 }
 
 .controls-column-center {
-  top: 0;
-  left: 3%;
+  top: 910px;
+  left: -3%;
   right: 0;
   position: absolute;
   height: 100%;
+  z-index: 1000000;
 }
 
 .next-prev {
@@ -237,7 +237,6 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-position-y: 45%;
 }
 
 .future{
@@ -285,6 +284,7 @@ li {
 }
 
 .title {
+	font-family: UrbanoExtraCond;
 	font-size: 140px;
   margin: 0 auto;
   color: white !important;
@@ -324,6 +324,7 @@ li {
 }
 
 .title-invert{
+	font-family: UrbanoExtraCond;
   margin: 0 auto;
   letter-spacing: 11px;
   width: 1020px;
@@ -342,6 +343,7 @@ li {
 }
 
 .mainTitle {
+	font-family: UrbanoExtraCond;
 	color:rgb(68, 68, 68);
 	font-size: 140px;
   margin: 0 auto;
@@ -460,7 +462,7 @@ svg:hover {
 
 .vertical-center {
 	min-height: 100%;
-	min-height: 80vh;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -717,7 +719,16 @@ svg:hover {
 }
 
 .scroll-down{
-	padding-top:100px;
+	padding-top:10%;
+}
+
+#primary-project-content{
+	padding-bottom:20px;
+}
+
+.pattern{
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+	height:500px;
 }
 
 @keyframes move{
