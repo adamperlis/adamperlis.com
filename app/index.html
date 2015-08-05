@@ -13,9 +13,9 @@
 
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), lightGray: $state.includes('project5')}">
+<body ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), white: $state.includes('project5')}">
 
-  <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), motoInvert: $state.includes('project5')}">
+  <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), newcoInvert: $state.includes('project5'), aboutNav: $state.includes('about')} ">
     <div class="container">
       <div class="navbar-header pull-left">
         <a class="navbar-brand" ui-sref="home">
@@ -47,7 +47,7 @@
   </div>
 
   <div class="row row-center" ng-hide="currentPath === '/' || currentPath=== '/about'">
-    <div class="col-xs-12 col-sm-12 animated fadeInUp controls-column-center center-block text-center">
+    <div class="col-xs-12 col-sm-12 animated fadeInUp controls-column-center center-block text-center" ng-class="{newcoControls: $state.includes('project5')}">
       <div class="row">
         <div class="col-xs-4"></div>
         <div class="col-xs-2 next-prev">

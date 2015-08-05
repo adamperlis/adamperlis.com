@@ -15,7 +15,7 @@
 		 		templateUrl: 'home.html'
  			}
  		},
- 		title: 'Home'
+ 		title: 'home'
  	});
 
  	$stateProvider
