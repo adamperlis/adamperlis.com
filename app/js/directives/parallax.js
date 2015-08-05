@@ -2,7 +2,7 @@
 
 var directivesModule = require('./_index.js');
 
-directivesModule.directive('angular-parallax', ['$window', function($window) {
+directivesModule.directive('parallax', ['$window', function($window) {
   return {
     restrict: 'A',
     scope: {

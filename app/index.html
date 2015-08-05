@@ -40,6 +40,12 @@
 
 <div class="row presentation-wrapper" ng-controller="viewCtrl">
 
+  <div class="row row-center">
+    <div class="col-sm-12 col-xs-12 column-center"> 
+      <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
+    </div>
+  </div>
+
   <div class="row row-center" ng-hide="currentPath === '/' || currentPath=== '/about'">
     <div class="col-xs-12 col-sm-12 animated fadeInUp controls-column-center center-block text-center">
       <div class="row">
@@ -79,15 +85,9 @@
     </div>
   </div>
 
-   <div class="col-xs-11 col-sm-11 center-block column-center">
-    <div class="row row-center">
-      <div class="col-sm-12 col-xs-12 column-center"> 
-        <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="hidden-xs col-sm-1" ng-hide="currentPath === '/' || currentPath=== '/about'">
+ 
+
+  <!-- <div class="hidden-xs col-sm-1" ng-hide="currentPath === '/' || currentPath=== '/about'">
     <ul class="projectNum">
       <li id="project1" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project1')}" ui-sref="project1">1</a></li>
       <li id="project2" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project2')}" ui-sref="project2">2</a></li>
@@ -95,7 +95,7 @@
       <li id="project4" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project4')}" ui-sref="project4">4</a></li>
       <li id="project5" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project5')}" ui-sref="project5">5</a></li>
     </ul>
-  </div>
+  </div> -->
 </div>
 
 
