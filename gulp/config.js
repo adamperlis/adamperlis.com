@@ -2,9 +2,9 @@
 
 module.exports = {
 
-  'browserport'  : 3000,
-  'uiport'       : 3001,
-  'serverport'   : 3002,
+  'browserport'  : process.env.PORT || 3000,
+  'uiport'       : process.env.PORT || 3001,
+  'serverport'   : process.env.PORT || 3002,
 
   'styles': {
     'src' : 'app/styles/**/*.scss',
