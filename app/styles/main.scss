@@ -651,7 +651,7 @@ body {
 	color: black;
 	background-color: rgb(240, 240, 240);
 	overflow-x: hidden;
-	transition:1s all;
+	transition:1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 li { 
@@ -903,33 +903,33 @@ li {
 
 .grey{
 	background:rgb(51, 51, 51);
-	transition: .5s all;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 .black{
 	background:black;
-	transition: .5s all;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 .purple{
 	background:#5F6F81;
-	transition: .5s all;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 .green{
 	background:rgb(101, 198, 187);
-	transition: .5s all;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 .white{
 	background:white;
-	transition: .5s all;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 .navbar a {
 	color:black;
 	font-family: 'Arvo', serif;
-	transition: .25s all;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 
@@ -1036,6 +1036,7 @@ svg:hover {
   font-size: 12px;
   font-weight: 100;  
   z-index: 100000000000000;
+  transition:1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
 .navbar-brand {
@@ -1094,8 +1095,8 @@ svg:hover {
 
 .slide.ng-enter,
 .slide.ng-leave {
-	-webkit-transition: 1s cubic-bezier(.55,0,.1,1) all;
-	transition: 1s cubic-bezier(.55,0,.1,1) all;
+	-webkit-transition: 1.1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+	transition: 1.1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 	opacity:0;
 }
 
