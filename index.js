@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '../build'));
 // app.set('view engine', 'html');
 
 app.get('/', function(request, response) {
-  response.render('index.html');
+  response.render('index');
 });
 
 app.listen(app.get('port'), function() {
