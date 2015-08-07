@@ -16,21 +16,14 @@
 // app.listen(app.get('port'), function() {
 //   console.log('Node app is running on port', app.get('port'));
 // });
-
-'use strict';
-
-var config  = require('../config');
-var http    = require('http');
-var express = require('express');
-var gulp    = require('gulp');
-var gutil   = require('gulp-util');
-var morgan  = require('morgan');
-
+	var express = require('express');
+	var http    = require('http');
   var server = express();
 
+  server.set('port', (process.env.PORT || 5000));
+
   // log all requests to the console
-  server.use(morgan('dev'));
-  server.use(express.static(config.dist.root));
+  server.use(express.static('build'));
 
   // Serve index.html for all routes to leave routing up to Angular
   server.all('/*', function(req, res) {
@@ -41,11 +34,13 @@ var morgan  = require('morgan');
   var s = http.createServer(server);
   s.on('error', function(err){
     if(err.code === 'EADDRINUSE'){
-      gutil.log('Development server is already started at port ' + config.serverport);
+      gutil.log('Development server is already started at port ' + server.get('port'));
     }
     else {
       throw err;
     }
   });
 
-  s.listen(config.serverport);
+  s.listen(server.get('port'), function() {
+  	console.log('Node app is running on port', server.get('port'));
+	});
