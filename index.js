@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000));
 
 // app.use(express.static(__dirname + '../build'));
 app.configure(function() {
-  app.use('/', express.static(__dirname + '../build'));
+  app.use('../build', express.static(__dirname + '../build'));
 });
 
 // views is directory for all template files
