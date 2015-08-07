@@ -19,7 +19,7 @@
 
 'use strict';
 
-var config  = require('../config');
+var config  = require('gulp/config');
 var http    = require('http');
 var express = require('express');
 var gulp    = require('gulp');
