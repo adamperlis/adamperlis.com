@@ -6,9 +6,12 @@
 }
 
 @font-face {
-	font-family: UrbanoExtraCond;
-	src: url(/fonts/Urbano-ExtraCond-webfont.woff) format('woff');
-}
+	font-family: 'UrbanoExtraCond';
+	src: url('/fonts/Urbano-ExtraCond-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('/fonts/Urbano-ExtraCond-webfont.woff') format('woff'), 
+	     url('/fonts/Urbano-ExtraCond-webfont.ttf')  format('truetype'),
+	     url('/fonts/Urbano-ExtraCond-webfont.svg#svgFontName') format('svg');
+	}
 
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
 
