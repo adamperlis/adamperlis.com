@@ -2,7 +2,7 @@
 
 var controllersModule = require('./_index');
 
-controllersModule.controller('viewCtrl', ['$rootScope', '$scope', '$state', '$location', function($rootScope, $scope, $state, $location) {
+controllersModule.controller('viewCtrl', ['$rootScope', '$scope', '$state', '$location', 'swipe', function($rootScope, $scope, $state, $location, swipe) {
 
 $rootScope.$state = $state;
 
@@ -32,6 +32,18 @@ var index = 0
         // console.log("clicked left");
         index = index - 1
 
+    };
+
+    $scope.swipeLeft = function($event) {
+        console.log($event);
+        $scope.next();
+        e.preventDefault();
+    };
+
+    $scope.swipeRight = function($event) {
+        console.log($event);
+        $scope.prev();
+        e.preventDefault();
     };
 
 
