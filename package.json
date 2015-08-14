@@ -1,8 +1,8 @@
 {
-  "name": "angularjs-gulp-browserify-boilerplate",
+  "name": "adamperlis.com",
   "version": "0.1.0",
-  "author": "Jake Marsh <jakemmarsh@gmail.com>",
-  "description": "Boilerplate using AngularJS, SASS, Gulp, and Browserify while also utilizing best practices.",
+  "author": "Adam Perlis",
+  "description": "Adam Perlis Portfolio",
   "main": "index.js",
   "scripts": {
     "postinstall": "gulp prod",

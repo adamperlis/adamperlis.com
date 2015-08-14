@@ -2,10 +2,14 @@
 
 var controllersModule = require('./_index');
 
-controllersModule.controller('viewCtrl', ['$rootScope', '$scope', '$state', '$location', 'swipe', function($rootScope, $scope, $state, $location, swipe) {
+controllersModule.controller('viewCtrl', ['$rootScope', '$scope', '$state', '$location', 'swipe', '$window', function($rootScope, $scope, $state, $location, swipe, $window) {
 
 $rootScope.$state = $state;
 
+//Scroll to top on route change
+$rootScope.$on("$stateChangeSuccess", function (event, currentState, previousState) {
+    $window.scrollTo(0, 0);
+});
 
 //cycle through projects #####BROKEN NEED TO FIX#######
 var route = ['project1','project2','project3','project4','project5']
