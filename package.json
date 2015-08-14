@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate.git"
+    "url": "https://github.com/dam4222/adamperlis.com"
   },
   "keywords": [
     "express",
@@ -25,7 +25,8 @@
   ],
   "private": true,
   "engines": {
-    "node": "0.12.x"
+    "node": "0.12.x",
+    "npm": "2.11.x"
   },
   "dependencies": {
     "angular": "^1.3.15",
