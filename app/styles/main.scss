@@ -859,6 +859,7 @@ li {
   left: 0;
   right: 0;
   transition:.25s background;
+  -webkit-animation-delay:.45s;
 }
 
 .badge:hover {
