@@ -137,6 +137,10 @@ and (max-width : 667px) {
 			top:-70px !important;
 		}
 
+		.badge-home{
+			top: 43% !important;
+		}	
+
 		#logo{
 			background: url('../../images/ap-logo.svg') no-repeat center center;
 		  z-index: -2;
@@ -355,6 +359,10 @@ and (max-width : 1024px) {
 			top:80px !important;
 		}
 
+		.badge-home{
+			top: 47% !important;
+		}	
+
 		#logo{
 			background: url('../../images/ap-logo.svg') no-repeat center center;
 		  z-index: -2;
@@ -567,6 +575,10 @@ and (max-width : 1024px) {
 		.badge-about{
 			top:100px !important;
 		}
+
+		.badge-home{
+			top: 47% !important;
+		}	
 
 		#logo{
 			background: url('../../images/ap-logo.svg') no-repeat center center;
@@ -869,6 +881,10 @@ li {
 
 .badge-about{
 	top:350px;
+}
+
+.badge-home{
+	top: 48%;
 }
 
 .jumbotron {
