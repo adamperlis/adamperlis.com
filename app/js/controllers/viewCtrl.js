@@ -2,7 +2,7 @@
 
 var controllersModule = require('./_index');
 
-controllersModule.controller('viewCtrl', ['$rootScope', '$scope', '$state', '$location', 'swipe', '$window', function($rootScope, $scope, $state, $location, swipe, $window) {
+controllersModule.controller('viewCtrl', ['$rootScope', '$scope', '$state', '$location', '$window', function($rootScope, $scope, $state, $location, $window) {
 
 $rootScope.$state = $state;
 

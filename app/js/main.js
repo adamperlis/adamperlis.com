@@ -21,8 +21,8 @@ angular.element(document).ready(function() {
     'app.controllers',
     'app.services',
     'app.directives',
-    'ngAnimate',
-    'swipe'
+    'ngAnimate'
+    // 'swipe'
   ];
 
   // mount on window for testing
