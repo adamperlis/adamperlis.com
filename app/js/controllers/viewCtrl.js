@@ -38,17 +38,17 @@ var index = 0
 
     };
 
-    $scope.swipeLeft = function($event) {
-        console.log($event);
-        $scope.next();
-        e.preventDefault();
-    };
+    // $scope.swipeLeft = function($event) {
+    //     console.log($event);
+    //     $scope.next();
+    //     e.preventDefault();
+    // };
 
-    $scope.swipeRight = function($event) {
-        console.log($event);
-        $scope.prev();
-        e.preventDefault();
-    };
+    // $scope.swipeRight = function($event) {
+    //     console.log($event);
+    //     $scope.prev();
+    //     e.preventDefault();
+    // };
 
 
 $scope.$on('$stateChangeSuccess', function (event, toState) {
