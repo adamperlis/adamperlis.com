@@ -5,7 +5,6 @@ var angular = require('angular');
 // angular modules
 require('angular-ui-router');
 require('angular-animate');
-require('angulartics');
 require('./templates');
 require('./controllers/_index');
 require('./services/_index');
@@ -21,9 +20,7 @@ angular.element(document).ready(function() {
     'app.controllers',
     'app.services',
     'app.directives',
-    'ngAnimate',
-    'angulartics', 
-    'angulartics.google.analytics'
+    'ngAnimate'
   ];
 
   // mount on window for testing
