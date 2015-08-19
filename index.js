@@ -26,26 +26,8 @@
   server.use(express.static('build'));
 
   // Serve index.html for all routes to leave routing up to Angular
-  server.all('/*', function(req, res, next) {
-    var protocol = 'http' + (req.connection.encrypted ? 's' : '') + '://'
-      , host = req.headers.host
-      , href
-      ;
-
-    // no www. present, nothing to do here
-    if (/^www\./i.test(host)) {
-      next();
-      return;
-    }
-
-    // remove www.
-    host = 'www.' + host;
-    href = protocol + host + req.url;
-    res.statusCode = 301;
-    res.setHeader('Location', href);
-    res.write('Redirecting to ' + host + req.url + '');
-    res.sendFile('index.html', { root: 'build' });
-    res.end();
+  server.all('/*', function(req, res) {
+      res.sendFile('index.html', { root: 'build' });
   });
 
   // Start webserver if not already running
