@@ -5,7 +5,7 @@ var angular = require('angular');
 // angular modules
 require('angular-ui-router');
 require('angular-animate');
-// require('../../vendor/angular-swipe-master/src/angular-swipe.js');
+require('angulartics');
 require('./templates');
 require('./controllers/_index');
 require('./services/_index');
@@ -21,8 +21,9 @@ angular.element(document).ready(function() {
     'app.controllers',
     'app.services',
     'app.directives',
-    'ngAnimate'
-    // 'swipe'
+    'ngAnimate',
+    'angulartics', 
+    'angulartics.google.analytics'
   ];
 
   // mount on window for testing
