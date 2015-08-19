@@ -39,7 +39,7 @@
     }
 
     // remove www.
-    host = host = 'www.' + host;
+    host = 'www.' + host;
     href = protocol + host + req.url;
     res.statusCode = 301;
     res.setHeader('Location', href);
