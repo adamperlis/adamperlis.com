@@ -244,6 +244,49 @@ and (max-width : 667px) {
 			font-size:14px !important;
 		}
 
+		.scrollTopButtonOn {
+	  background: url('../../images/scrollTop-01.svg') no-repeat;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    position: fixed;
+		bottom: 20px;
+		right: 20px !important;
+		width: 50px !important;
+		height: 50px !important;
+		z-index: 9999999999999; 
+	}
+
+	.scrollTopButtonOn:active{
+		opacity:.25;
+		cursor: pointer;
+	}
+
+	.scrollTopButtonOn-add {
+		background: url('../../images/scrollTop-01.svg') no-repeat;
+		opacity:0;
+		position: fixed;
+	  bottom: 20px;
+		right: 20px !important;
+		width: 50px !important;
+		height: 50px !important;
+		-webkit-transform: translate3d(0,-200,0);
+		transform: translate3d(0,-200,0);
+		z-index: 9999999999999;
+	}
+
+	.scrollTopButtonOn-add-active{
+		background: url('../../images/scrollTop-01.svg') no-repeat;
+		position: fixed;
+		bottom: 20px;
+		right: 20px !important;
+		width: 50px !important;
+		height: 50px !important;
+		opacity:1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		z-index: 9999999999999;
+	}
+
 		
 }
 
@@ -1367,6 +1410,49 @@ svg:hover {
 
 .futureText{
 	color:white;
+}
+
+.scrollTopButtonOn {
+	  background: url('../../images/scrollTop-01.svg') no-repeat;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+    z-index: 9999999999999;
+}
+
+.scrollTopButtonOn:hover{
+	opacity:.25;
+	cursor: pointer;
+}
+
+.scrollTopButtonOn-add {
+	background: url('../../images/scrollTop-01.svg') no-repeat;
+	opacity:0;
+	position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+	-webkit-transform: translate3d(0,-200,0);
+	transform: translate3d(0,-200,0);
+	z-index: 9999999999999;
+}
+
+.scrollTopButtonOn-add-active{
+	background: url('../../images/scrollTop-01.svg') no-repeat;
+	position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+	opacity:1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	z-index: 9999999999999;
 }
 
 @keyframes move{

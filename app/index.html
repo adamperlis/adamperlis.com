@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), white: $state.includes('project5')}">
+<body id="Top" ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), white: $state.includes('project5')}">
 
   <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), newcoInvert: $state.includes('project5'), aboutNav: $state.includes('about')} ">
     <div class="container">
@@ -41,7 +41,10 @@
 
 <div class="row presentation-wrapper" ng-controller="viewCtrl">
 
-  <div ng-swipe-left="swipeLeft($event)" ng-swipe-right="swipeRight($event)" class="row row-center">
+
+  <div ng-class="{ scrollTopButtonOn: scrollTopButtonOn }" ng-click="scrollup();"></div>
+
+  <div class="row row-center">
     <div class="col-sm-12 col-xs-12 column-center"> 
       <div class="slide" ui-view='default' ng-class="{ back: back }"></div>
     </div>
@@ -97,7 +100,10 @@
       <li id="project5" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project5')}" ui-sref="project5">5</a></li>
     </ul>
   </div>
+
 </div>
+
+
 
 
 
