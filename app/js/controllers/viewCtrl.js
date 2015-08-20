@@ -14,7 +14,7 @@ $rootScope.$on("$stateChangeSuccess", function (event, currentState, previousSta
 $scope.scrollTopButton = false;
 
 angular.element($window).bind("scroll", function() {
-    if (this.pageYOffset >= 500) {
+    if (this.pageYOffset >= 300) {
     $scope.scrollTopButtonOn = true;
     } else {
     $scope.scrollTopButtonOn = false;
