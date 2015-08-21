@@ -13,7 +13,25 @@
 	     url('/fonts/Urbano-ExtraCond-webfont.svg#svgFontName') format('svg');
 	}
 
-@import url(//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic);
+@font-face {
+    font-family: 'ArcherProLightItalic';
+    src: url('/fonts/ArcherProLightItalic.eot');
+    src: url('/fonts/ArcherProLightItalic.eot') format('embedded-opentype'),
+         url('/fonts/ArcherProLightItalic.woff2') format('woff2'),
+         url('/fonts/ArcherProLightItalic.woff') format('woff'),
+         url('/fonts/ArcherProLightItalic.ttf') format('truetype'),
+         url('/fonts/ArcherProLightItalic.svg#ArcherProLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'ArcherProBook';
+    src: url('/fonts/ArcherProBook.eot');
+    src: url('/fonts/ArcherProBook.eot') format('embedded-opentype'),
+         url('/fonts/ArcherProBook.woff2') format('woff2'),
+         url('/fonts/ArcherProBook.woff') format('woff'),
+         url('/fonts/ArcherProBook.ttf') format('truetype'),
+         url('/fonts/ArcherProBook.svg#ArcherProBook') format('svg');
+}
 
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 
@@ -26,7 +44,7 @@ font-weight: normal;
 /* Portrait and Landscape */
 @media screen 
 and (min-width : 320px) 
-and (max-width : 667px) {
+and (max-width : 568px) {
 		
 		.nav {
 			padding-left:30px;
@@ -56,7 +74,7 @@ and (max-width : 667px) {
 		}
 
 		.subtitle-invert {
-			font-family: 'Arvo', serif;
+			font-family: 'ArcherProLightItalic';
 			font-size: 20px;
 			font-weight: 100;
 			font-style: italic;
@@ -96,7 +114,7 @@ and (max-width : 667px) {
 		}
 
 		.subtitle {
-			font-family: 'Arvo', serif;
+			font-family: 'ArcherProLightItalic';
 			font-size: 20px;
 			font-weight: 100;
 			font-style: italic;
@@ -112,33 +130,45 @@ and (max-width : 667px) {
 
 		.badge{
 			display: inline-block;
-		  min-width: 10px;
-		  padding: 5px 11px;
-		  font-size: 10px;
-		  font-weight: 100;
-		  font-style: italic;
-		  line-height: 1;
-		  color: #fff;
-		  width: 100px;
-		  text-align: center;
-		  white-space: nowrap;
-		  vertical-align: middle;
-		  background-color: #777;
-		  border-radius: 10px;
-		  position: absolute;
-		  margin:0 auto;
-		  top: 130px !important;
-		  left: 0;
-		  right: 0;
-		  transition:.25s background;
+			min-width: 10px;
+			padding: 5px 11px;
+			font-size: 10px;
+			font-weight: 100;
+			font-style: italic;
+			line-height: 1;
+			color: #fff;
+			width: 100px;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			background-color: #777;
+			border-radius: 10px;
+			position: absolute;
+			margin:0 auto;
+			top: 312px !important;
+			left: 0;
+			right: 0;
+			transition:.25s background;
 		}
 
 		.badge-about{
-			top:-70px !important;
+			top:220px !important;
 		}
 
 		.badge-home{
 			top: 42% !important;
+		}
+
+		.about{
+			font-family: 'ArcherProBook';
+		    font-size: 16px;
+		    font-weight: 100;
+		    letter-spacing: 1px;
+		    color: #444444;
+		    margin: 0 auto;
+		    line-height: 20px;
+		    position: relative;
+		    padding-top:60px !important;
 		}	
 
 		#logo{
@@ -198,6 +228,12 @@ and (max-width : 667px) {
 		  background-position-y: 3% !important;
 		}
 
+
+		.pickleUX{
+			padding-left: 50px !important;
+			padding-top: 20px !important;
+		}
+
 		.newco {
 			background: url('../../images/basic_multiscreen.svg') no-repeat center center;
 			z-index: -2;
@@ -241,7 +277,7 @@ and (max-width : 667px) {
 		}
 
 		.about-container h3{
-			font-size:14px !important;
+			font-size:16px !important;
 		}
 
 		.scrollTopButtonOn {
@@ -290,10 +326,11 @@ and (max-width : 667px) {
 		
 }
 
-@media screen 
-and (min-width : 768px) 
-and (max-width : 1024px) { 
-		.nav {
+/*iPhone 6*/
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) { 
+	.nav {
 			padding-left:30px;
 		}
 
@@ -303,7 +340,7 @@ and (max-width : 1024px) {
 		}
 
 		.jumbotron h1 {
-			font-size: 90px !important;
+			font-size: 38px !important;
 		}
 
 		.title-invert{
@@ -312,16 +349,16 @@ and (max-width : 1024px) {
 		  margin: 0 auto;
 		  letter-spacing: 11px;
 		  text-align:center;
-		  max-width:80% !important;
+		  max-width:90% !important;
 			position: absolute;
-			top: 240px !important;
+			top: 150px !important;
 			left: 0;
 			right: 0;
 			color:rgb(68, 68, 68) !important;
 		}
 
 		.subtitle-invert {
-			font-family: 'Arvo', serif;
+			font-family: 'ArcherProLightItalic';
 			font-size: 20px;
 			font-weight: 100;
 			font-style: italic;
@@ -329,7 +366,7 @@ and (max-width : 1024px) {
 			color:white;
 			margin:0 auto;
 		  position: absolute;
-		 	top: 480px !important;
+		  top: 290px !important;
 		  left: 0;
 		  right: 0;
 		  text-align: center;
@@ -355,13 +392,13 @@ and (max-width : 1024px) {
 		  text-align:center;
 		  max-width:80% !important;
 			position: absolute;
-			top: 240px !important;
+			top: 180px !important;
 			left: 0;
 			right: 0;
 		}
 
 		.subtitle {
-			font-family: 'Arvo', serif;
+			font-family: 'ArcherProLightItalic';
 			font-size: 20px;
 			font-weight: 100;
 			font-style: italic;
@@ -369,7 +406,7 @@ and (max-width : 1024px) {
 			color:white;
 			margin:0 auto;
 		  position: absolute;
-		  top: 480px !important;
+		  top: 280px !important;
 		  left: 0;
 		  right: 0;
 		  text-align: center;
@@ -392,14 +429,295 @@ and (max-width : 1024px) {
 		  border-radius: 10px;
 		  position: absolute;
 		  margin:0 auto;
-		  top: 130px !important;
+		  top: 330px !important;
 		  left: 0;
 		  right: 0;
 		  transition:.25s background;
 		}
 
 		.badge-about{
-			top:80px !important;
+			top:220px !important;
+		}
+
+		.badge-home{
+			top: 42% !important;
+		}
+
+		.about{
+			font-family: 'ArcherProBook';
+		    font-size: 16px;
+		    font-weight: 100;
+		    letter-spacing: 1px;
+		    color: #444444;
+		    margin: 0 auto;
+		    line-height: 20px;
+		    position: relative;
+		    padding-top:60px !important;
+		}		
+
+		#logo{
+			background: url('../../images/ap-logo.svg') no-repeat center center;
+		  z-index: -2;
+		  background-size: 320px !important;
+		  opacity: .1;
+		  position: fixed;
+		  width: 100%;
+		  top:0;
+		  left:0;
+		  right:0;
+		/*  height: 350px;*/ /*same height as jumbotron */
+		}
+
+		.history{
+			background: url('../../images/basic_spread_text.svg') no-repeat center center;
+		  z-index: -2;
+		  background-size: 240px !important;
+		  opacity: .9;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		  background-position-y: 4% !important;
+		}
+
+		.future{
+			background: url('../../images/basic_eye.svg') no-repeat center center;
+			z-index: -2;
+		  background-size: 240px !important;
+		  opacity: .35;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		  background-position-y: 2% !important;
+		}
+
+		.podium{
+			background: url('../../images/basic_display.svg') no-repeat center center;
+			z-index: -2;
+		  background-size: 150px !important;
+		  opacity: .45;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		  background-position-y: 7.5% !important;
+		}
+
+		.pickle{
+			background: url('../../images/basic_signs.svg') no-repeat center center;
+			z-index: -2;
+		  background-size: 180px !important;
+		  opacity: .75;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		  background-position-y: 3% !important;
+		}
+
+		.pickleUX{
+			padding-left: 50px !important;
+			padding-top: 20px !important;
+		}
+
+		.newco {
+			background: url('../../images/basic_multiscreen.svg') no-repeat center center;
+			z-index: -2;
+		  background-size: 280px !important;
+		  opacity: 1;
+		  height: 100%;
+		  width: 100%;
+		  position: absolute;
+		  background-position-y: 4%;
+		}
+
+		.controls-column-center {
+			top: 422px !important;
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			z-index: 1000000;
+			left:0;
+			right:0;
+		}
+
+		.next-prev svg {
+			width:60px !important;
+		}
+
+		.scroll-down{
+			top: 0px !important;
+			padding-top: 11% !important; 
+		}
+
+		.projectNum {
+		  position: fixed;
+		  right: 30px !important;
+		  top: 35% !important;
+		}
+
+		.about-container{
+			padding-top:200px;
+			max-width: 90%;
+			margin:0 auto;
+		}
+
+		.about-container h3{
+			font-size:16px !important;
+		}
+
+		.scrollTopButtonOn {
+		  	background: url('../../images/scrollTop-01.svg') no-repeat;
+	    	-webkit-transition: all 1s;
+	   		transition: all 1s;
+	    	position: fixed;
+			bottom: 20px;
+			right: 20px !important;
+			width: 50px !important;
+			height: 50px !important;
+			z-index: 9999999999999; 
+		}
+
+	.scrollTopButtonOn:active{
+		opacity:.25;
+		cursor: pointer;
+	}
+
+	.scrollTopButtonOn-add {
+		background: url('../../images/scrollTop-01.svg') no-repeat;
+		opacity:0;
+		position: fixed;
+	  	bottom: 20px;
+		right: 20px !important;
+		width: 50px !important;
+		height: 50px !important;
+		-webkit-transform: translate3d(0,-200,0);
+		transform: translate3d(0,-200,0);
+		z-index: 9999999999999;
+	}
+
+	.scrollTopButtonOn-add-active{
+		background: url('../../images/scrollTop-01.svg') no-repeat;
+		position: fixed;
+		bottom: 20px;
+		right: 20px !important;
+		width: 50px !important;
+		height: 50px !important;
+		opacity:1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		z-index: 9999999999999;
+	}
+}
+
+/*iPad*/
+@media screen 
+and (min-width : 768px) 
+and (max-width : 1024px) { 
+		.nav {
+			padding-left:30px;
+		}
+
+		.nav>li {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.jumbotron h1 {
+			font-size: 90px !important;
+		}
+
+		.title-invert{
+			font-family: UrbanoExtraCond;
+			font-size: 140px;
+			margin: 0 auto;
+			letter-spacing: 11px;
+			text-align:center;
+			max-width:80% !important;
+			position: absolute;
+			top: 240px !important;
+			left: 0;
+			right: 0;
+			color:rgb(68, 68, 68) !important;
+		}
+
+		.subtitle-invert {
+			font-family: 'ArcherProLightItalic';
+			font-size: 20px;
+			font-weight: 100;
+			font-style: italic;
+			letter-spacing: 1px;
+			color:white;
+			margin:0 auto;
+		  	position: absolute;
+		 	top: 480px !important;
+		  	left: 0;
+		  	right: 0;
+		  	text-align: center;
+			color:rgb(68, 68, 68);
+		}
+
+		.main-title{
+			padding-top:50px;
+			font-family: UrbanoExtraCond;
+			margin: 0 auto;
+		  	letter-spacing: 11px;
+		  	width: 100%;
+		  	text-align:center;
+			color:rgb(68, 68, 68) !important;
+		}	
+
+		.title {
+			font-family: UrbanoExtraCond;
+			font-size: 140px;
+			margin: 0 auto;
+			color: white !important;
+			letter-spacing: 11px;
+			text-align:center;
+			max-width:80% !important;
+			position: absolute;
+			top: 240px !important;
+			left: 0;
+			right: 0;
+		}
+
+		.subtitle {
+			font-family: 'ArcherProLightItalic';
+			font-size: 20px;
+			font-weight: 100;
+			font-style: italic;
+			letter-spacing: 1px;
+			color:white;
+			margin:0 auto;
+			position: absolute;
+			top: 480px !important;
+			left: 0;
+			right: 0;
+			text-align: center;
+		}
+
+		.badge{
+			display: inline-block;
+			min-width: 10px;
+			padding: 5px 11px;
+			font-size: 10px;
+			font-weight: 100;
+			font-style: italic;
+			line-height: 1;
+			color: #fff;
+			width: 100px;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			background-color: #777;
+			border-radius: 10px;
+			position: absolute;
+			margin:0 auto;
+			top: 520px !important;
+			left: 0;
+			right: 0;
+			transition:.25s background;
+		}
+
+		.badge-about{
+			top:350px !important;
 		}
 
 		.badge-home{
@@ -538,7 +856,7 @@ and (max-width : 1024px) {
 		}
 
 		.subtitle-invert {
-			font-family: 'Arvo', serif;
+			font-family: 'ArcherProLightItalic';
 			font-size: 20px;
 			font-weight: 100;
 			font-style: italic;
@@ -578,7 +896,7 @@ and (max-width : 1024px) {
 		}
 
 		.subtitle {
-			font-family: 'Arvo', serif;
+			font-family: 'ArcherProLightItalic';
 			font-size: 20px;
 			font-weight: 100;
 			font-style: italic;
@@ -719,8 +1037,9 @@ and (max-width : 1024px) {
 
 
 body {
-	font-family: Arvo;
+	font-family: 'ArcherProBook';
 	color: black;
+	font-size: 16px;
 	background-color: rgb(240, 240, 240);
 	overflow-x: hidden;
 	transition:1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
@@ -828,7 +1147,7 @@ li {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-position-y: 8%;
+  background-position-y: 8.85%;
 }
 
 .pickle{
@@ -842,15 +1161,24 @@ li {
   background-position-y: 6%;
 }
 
+.picklePhone{
+	width:300px;
+}
+
+.pickleUX{
+	padding-left: 120px;
+	padding-top: 60px;
+}
+
 .newco {
 	background: url('../../images/basic_multiscreen.svg') no-repeat center center;
 	z-index: -2;
-  background-size: 920px;
-  opacity: 1;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position-y: 4%;
+	background-size: 480px;
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position-y: 5.5%;
 }
 
 .title {
@@ -868,7 +1196,7 @@ li {
 }
 
 .subtitle {
-	font-family: 'Arvo', serif;
+	font-family: 'ArcherProLightItalic';
 	font-size: 20px;
 	font-weight: 100;
 	font-style: italic;
@@ -882,40 +1210,28 @@ li {
   text-align: center;
 }
 
-.more-work {
-	font-family: 'Arvo', serif;
-	font-size: 18px;
-	font-weight: 100;
-	font-style: italic;
-	letter-spacing: 1px;
-	color:rgb(68, 68, 68);
-	margin:0 auto;
-	transition:.5s all;
-	-webkit-animation-delay:1s;
-}
-
 .badge{
 	display: inline-block;
-  min-width: 10px;
-  padding: 5px 11px;
-  font-size: 10px;
-  font-weight: 100;
-  font-style: italic;
-  line-height: 1;
-  color: #fff;
-  width: 100px;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  background-color: #777;
-  border-radius: 10px;
-  position: absolute;
-  margin:0 auto;
-  top: 400px;
-  left: 0;
-  right: 0;
-  transition:.25s background;
-  -webkit-animation-delay:.45s;
+	min-width: 10px;
+	padding: 5px 11px;
+	font-size: 12px;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 1;
+	color: #fff;
+	width: 100px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-color: #777;
+	border-radius: 10px;
+	position: absolute;
+	margin:0 auto;
+	top: 920px;
+	left: 0;
+	right: 0;
+	transition:.25s background;
+	-webkit-animation-delay:.45s;
 }
 
 .badge:hover {
@@ -924,7 +1240,8 @@ li {
 }
 
 .badge-about{
-	top:350px;
+	top: 491px;
+	z-index: 999999999;
 }
 
 .badge-home{
@@ -954,7 +1271,7 @@ li {
 }
 
 .subtitle-invert {
-	font-family: 'Arvo', serif;
+	font-family: 'ArcherProLightItalic';
 	font-size: 20px;
 	font-weight: 100;
 	font-style: italic;
@@ -1005,7 +1322,7 @@ li {
 
 .navbar a {
 	color:black;
-	font-family: 'Arvo', serif;
+	font-family: 'ArcherProBook';
 	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
@@ -1099,18 +1416,19 @@ svg:hover {
 }
 
 .about{
-	font-family: 'Arvo', serif;
-	font-size: 20px;
-	font-weight: 100;
-	letter-spacing: 1px;
-	color:rgb(68, 68, 68);
-	margin:0 auto;
-	line-height: 30px;
-	position: relative;
+	font-family: 'ArcherProBook';
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #444444;
+    margin: 0 auto;
+    line-height: 20px;
+    position: relative;
+    padding-top:60px;
 }
 
 .navbar {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 100;  
   z-index: 100000000000000;
   transition:1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
@@ -1120,7 +1438,7 @@ svg:hover {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 100; 
   line-height: 20px;
 }
@@ -1158,9 +1476,9 @@ svg:hover {
 
 .profile{
 	border-radius: 150px;
-  top: 330px;
-  width: 100px;
-  margin-bottom: 40px;
+	top: 330px;
+	width: 190px;
+	margin-bottom: 40px;
 }
 
 .slide {
@@ -1211,7 +1529,7 @@ svg:hover {
   padding: 10px;
   height: 20px;
   width: 20px;
-  font-family: Arvo;
+  font-family: 'ArcherProBook';
   text-align: center;
   margin-bottom:5px;
   transition:.25s all;
@@ -1219,8 +1537,8 @@ svg:hover {
 
 .projectNum li a {
 	color: white;
-	position: absolute;
-	left: 0;
+	position: relative;
+	left: -2px;
 	text-decoration: none;
 	font-size: 10px;
 	margin-top: -7px;
@@ -1235,7 +1553,74 @@ svg:hover {
 
 .projectNum li a:focus{
 	color: rgb(255, 184, 0);
-  outline: none;
+  	outline: none;
+}
+
+.projectNum li a span {
+	position: absolute;
+    pointer-events: none;
+	bottom: -16px;
+	left: -80px;
+	opacity: 0;
+	transition: all 0.5s cubic-bezier(.55,0,.1,1);
+	 -ms-transform: translate(-70px,0); /* IE 9 */
+   	-webkit-transform: translate(-70px,0); /* Safari */
+    transform: translate(-70px,0);
+    transform-origin:right top;
+}
+
+.projectNum li:nth-child(1):hover span {
+	text-decoration: none;
+    opacity:1;
+     -ms-transform: translate(0px,0); /* IE 9 */
+   	-webkit-transform: translate(0px,0); /* Safari */
+    transform: translate(0px,0);
+}
+
+.projectNum li:nth-child(2):hover span {
+	text-decoration: none;
+    opacity:1;
+     -ms-transform: translate(48px,0); /* IE 9 */
+   	-webkit-transform: translate(48px,0); /* Safari */
+    transform: translate(48px,0);
+}
+
+.projectNum li:nth-child(3):hover span {
+	text-decoration: none;
+    opacity:1;
+     -ms-transform: translate(70px,0); /* IE 9 */
+   	-webkit-transform: translate(70px,0); /* Safari */
+    transform: translate(70px,0);
+}
+
+.projectNum li:nth-child(4):hover span {
+	text-decoration: none;
+    opacity:1;
+     -ms-transform: translate(79px,0); /* IE 9 */
+   	-webkit-transform: translate(79px,0); /* Safari */
+    transform: translate(79px,0);
+}
+
+.projectNum li:nth-child(5):hover span {
+	text-decoration: none;
+    opacity:1;
+     -ms-transform: translate(28px,0); /* IE 9 */
+   	-webkit-transform: translate(28px,0); /* Safari */
+    transform: translate(28px,0);
+}
+
+.projectNum li a span:after {
+    background: #434343;
+    border-radius: .4em;
+    bottom: -.25em;
+    color: #fff;
+    content: attr(title);
+    left: -6em;
+    padding: .2em 1em;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 98;
+    font-size: 12px;
 }
 
 .focus{
@@ -1294,7 +1679,7 @@ svg:hover {
 
 .text-rotator {
   padding: 2em;
-  font-family: 'Arvo', serif;
+  font-family: 'ArcherProBook';
 	font-size: 20px;
 	font-weight: 100;
 	font-style: italic;
