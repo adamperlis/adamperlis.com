@@ -1525,8 +1525,8 @@ svg:hover {
 
 .projectNum li {
   background: #444;
+  display: block;
   border-radius: 100px;
-  padding: 10px;
   height: 20px;
   width: 20px;
   font-family: 'ArcherProBook';
@@ -1538,13 +1538,14 @@ svg:hover {
 .projectNum li a {
 	color: white;
 	position: relative;
-	left: -2px;
 	text-decoration: none;
 	font-size: 10px;
-	margin-top: -7px;
 	display: block; 
 	width: 100%; 
 	height: 100%;
+	padding: 10px 20px 10px 20px;
+	left: -12px;
+    top: -7px;
 }
 
 .projectNum li:hover{
@@ -1563,57 +1564,58 @@ svg:hover {
 	left: -80px;
 	opacity: 0;
 	transition: all 0.5s cubic-bezier(.55,0,.1,1);
-	 -ms-transform: translate(-70px,0); /* IE 9 */
-   	-webkit-transform: translate(-70px,0); /* Safari */
-    transform: translate(-70px,0);
+	 -ms-transform: translate(-70px,-10px); /* IE 9 */
+   	-webkit-transform: translate(-70px,-10px); /* Safari */
+    transform: translate(-70px,-10px);
     transform-origin:right top;
 }
 
 .projectNum li:nth-child(1):hover span {
 	text-decoration: none;
     opacity:1;
-     -ms-transform: translate(0px,0); /* IE 9 */
-   	-webkit-transform: translate(0px,0); /* Safari */
-    transform: translate(0px,0);
+     -ms-transform: translate(0px,-10px); /* IE 9 */
+   	-webkit-transform: translate(0px,-10px); /* Safari */
+    transform: translate(0px,-10px);
 }
 
 .projectNum li:nth-child(2):hover span {
 	text-decoration: none;
     opacity:1;
-     -ms-transform: translate(48px,0); /* IE 9 */
-   	-webkit-transform: translate(48px,0); /* Safari */
-    transform: translate(48px,0);
+     -ms-transform: translate(48px,-10px); /* IE 9 */
+   	-webkit-transform: translate(48px,-10px); /* Safari */
+    transform: translate(48px,-10px);
 }
 
 .projectNum li:nth-child(3):hover span {
 	text-decoration: none;
     opacity:1;
-     -ms-transform: translate(70px,0); /* IE 9 */
-   	-webkit-transform: translate(70px,0); /* Safari */
-    transform: translate(70px,0);
+     -ms-transform: translate(70px,-10px); /* IE 9 */
+   	-webkit-transform: translate(70px,-10px); /* Safari */
+    transform: translate(70px,-10px);
 }
 
 .projectNum li:nth-child(4):hover span {
 	text-decoration: none;
     opacity:1;
-     -ms-transform: translate(79px,0); /* IE 9 */
-   	-webkit-transform: translate(79px,0); /* Safari */
-    transform: translate(79px,0);
+     -ms-transform: translate(79px,-10px); /* IE 9 */
+   	-webkit-transform: translate(79px,-10px); /* Safari */
+    transform: translate(79px,-10px);
 }
 
 .projectNum li:nth-child(5):hover span {
 	text-decoration: none;
     opacity:1;
-     -ms-transform: translate(28px,0); /* IE 9 */
-   	-webkit-transform: translate(28px,0); /* Safari */
-    transform: translate(28px,0);
+     -ms-transform: translate(28px,-10px); /* IE 9 */
+   	-webkit-transform: translate(28px,-10px); /* Safari */
+    transform: translate(28px,-10px);
 }
 
 .projectNum li a span:after {
     background: #434343;
     border-radius: .4em;
     bottom: -.25em;
-    color: #fff;
+    color: white;
+    font-style: italic;
     content: attr(title);
     left: -6em;
     padding: .2em 1em;
