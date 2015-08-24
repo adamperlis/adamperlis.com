@@ -39,6 +39,18 @@ font-weight: normal;
 
 }
 
+a {
+	outline: 0;
+}
+
+a:hover, a:active, a:focus{
+	outline: 0;
+}
+
+input::-moz-focus-inner { 
+  border: 0; 
+}
+
 /* ----------- iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
@@ -173,59 +185,59 @@ and (max-width : 568px) {
 
 		#logo{
 			background: url('../../images/ap-logo.svg') no-repeat center center;
-		  z-index: -2;
-		  background-size: 320px !important;
-		  opacity: .1;
-		  position: fixed;
-		  width: 100%;
-		  top:0;
-		  left:0;
-		  right:0;
-		/*  height: 350px;*/ /*same height as jumbotron */
+			z-index: -2;
+			background-size: 320px !important;
+			opacity: .1;
+			position: fixed;
+			width: 100%;
+			top:0;
+			left:0;
+			right:0;
+			/*  height: 350px;*/ /*same height as jumbotron */
 		}
 
 		.history{
 			background: url('../../images/basic_spread_text.svg') no-repeat center center;
-		  z-index: -2;
-		  background-size: 240px !important;
-		  opacity: .9;
-		  height: 100%;
-		  width: 100%;
-		  position: absolute;
-		  background-position-y: 4% !important;
+			z-index: -2;
+			background-size: 240px !important;
+			opacity: .9;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-position-y: 4% !important;
 		}
 
 		.future{
 			background: url('../../images/basic_eye.svg') no-repeat center center;
 			z-index: -2;
-		  background-size: 240px !important;
-		  opacity: .35;
-		  height: 100%;
-		  width: 100%;
-		  position: absolute;
-		  background-position-y: 2% !important;
+			background-size: 240px !important;
+			opacity: .35;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-position-y: 2% !important;
 		}
 
 		.podium{
 			background: url('../../images/basic_display.svg') no-repeat center center;
 			z-index: -2;
-		  background-size: 150px !important;
-		  opacity: .45;
-		  height: 100%;
-		  width: 100%;
-		  position: absolute;
-		  background-position-y: 7.5% !important;
+			background-size: 150px !important;
+			opacity: .45;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-position-y: 7.5% !important;
 		}
 
 		.pickle{
 			background: url('../../images/basic_signs.svg') no-repeat center center;
 			z-index: -2;
-		  background-size: 180px !important;
-		  opacity: .75;
-		  height: 100%;
-		  width: 100%;
-		  position: absolute;
-		  background-position-y: 3% !important;
+			background-size: 180px !important;
+			opacity: .75;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-position-y: 3% !important;
 		}
 
 
@@ -1069,6 +1081,7 @@ li {
 
 .newcoControls {
 	-webkit-filter:invert(1);
+	filter:invert(1);
 }
 
 .next-prev {
@@ -1109,56 +1122,58 @@ li {
 
 #logo{
 	background: url('../../images/ap-logo.svg') no-repeat center center;
-  z-index: -2;
-  background-size: 380px;
-  opacity: .1;
-  position: fixed;
-  width: 100%;
-/*  height: 350px;*/ /*same height as jumbotron */
+	z-index: -2;
+	background-size: 380px;
+	opacity: .1;
+	position: fixed;
+	width: 100%;
+	/*  height: 350px;*/ /*same height as jumbotron */
 }
 
 .history{
 	background: url('../../images/basic_spread_text.svg') no-repeat center center;
-  z-index: -2;
-  background-size: 480px;
-  opacity: .9;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position-y: 5%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -2;
+	background-size: 480px;
+	opacity: .9;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position: 50% 5%;
 }
 
 .future{
 	background: url('../../images/basic_eye.svg') no-repeat center center;
 	z-index: -2;
-  background-size: 480px;
-  opacity: .5;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position-y: 3%;
+	background-size: 480px;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position: 50% 3%;
 }
 
 .podium{
 	background: url('../../images/basic_display.svg') no-repeat center center;
 	z-index: -2;
-  background-size: 320px;
-  opacity: .45;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position-y: 8.85%;
+	background-size: 320px;
+	opacity: .45;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position: 50% 8.85%;
 }
 
 .pickle{
 	background: url('../../images/basic_signs.svg') no-repeat center center;
 	z-index: -2;
-  background-size: 320px;
-  opacity: .5;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-position-y: 6%;
+	background-size: 320px;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position: 50% 9%;
 }
 
 .picklePhone{
@@ -1178,17 +1193,17 @@ li {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	background-position-y: 5.5%;
+	background-position: 50% 5.5%;
 }
 
 .title {
 	font-family: UrbanoExtraCond;
 	font-size: 140px;
-  margin: 0 auto;
-  color: white !important;
-  letter-spacing: 11px;
-  width: 1020px;
-  text-align:center;
+	margin: 0 auto;
+	color: white !important;
+	letter-spacing: 11px;
+	width: 1020px;
+	text-align:center;
 	position: absolute;
 	top: 550px;
 	left: 0;
@@ -1203,11 +1218,11 @@ li {
 	letter-spacing: 1px;
 	color:white;
 	margin:0 auto;
-  position: absolute;
-  top: 870px;
-  left: 0;
-  right: 0;
-  text-align: center;
+	position: absolute;
+	top: 870px;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 .badge{
@@ -1335,8 +1350,9 @@ li {
 	color:white;
 }
 
-.historyInvert svg {
+.historyInvert .navbar-brand {
 	-webkit-filter: invert(1);
+	filter: invert(1);
 }
 
 .futureInvert {
@@ -1347,8 +1363,9 @@ li {
 	color:white;
 }
 
-.futureInvert svg{
+.futureInvert .navbar-brand {
 	-webkit-filter: invert(1);
+	filter: invert(1);
 }
 
 .podiumInvert {
@@ -1359,8 +1376,9 @@ li {
 	color:white;
 }
 
-.podiumInvert svg{
+.podiumInvert .navbar-brand {
 	-webkit-filter: invert(1);
+	filter: invert(1);
 }
 
 .pickleInvert {
@@ -1371,8 +1389,9 @@ li {
 	color:white;
 }
 
-.pickleInvert svg{
+.pickleInvert .navbar-brand {
 	-webkit-filter: invert(1);
+	filter: invert(1);
 }
 
 .newcoInvert {
@@ -1385,7 +1404,7 @@ li {
 
 svg {
 	transition: .5s all;
-	 width: 50px;
+	width: 50px;
 }
 
 svg:hover {
@@ -1400,6 +1419,13 @@ svg:hover {
 .nav>li>a:focus, .nav>li>a:hover {
   text-decoration: none;
   background-color: rgba(0,0,0,0);
+}
+
+.navbar-brand{
+	background: url('../../images/ap-logo-01.svg') no-repeat;
+	width: 100px;
+	background-position: 80% 0;
+	margin-top: 15px;
 }
 
 .navbar-brand:hover {
@@ -1485,7 +1511,7 @@ svg:hover {
 	position: relative;
 	margin:0 auto;
 	width: 100%;
-  height: 100%;
+ 	height: 100%;
 }
 
 .slide.ng-enter,
@@ -1497,23 +1523,28 @@ svg:hover {
 
 .slide.ng-enter {
 	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
 	opacity:0;
 }
 .slide.ng-leave.ng-leave-active {
 	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
 	opacity:1;
 }
 .back.slide.ng-enter {
 	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
 	opacity:1;
 }
 .back.slide.ng-leave.ng-leave-active {
 	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
 	opacity:1;
 }
 .slide.ng-leave,
 .slide.ng-enter.ng-enter-active {
 	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 	opacity:1;
 }
 
@@ -1864,7 +1895,7 @@ svg:hover {
 }
 @-moz-keyframes move {
   	0%  { top: 45px; opacity:0;}
-		5%  { top: 0px; opacity:1;}
+	5%  { top: 0px; opacity:1;}
     10%  { top: 0px; opacity:1;}
     30% { top: -45px; opacity:1;}
     50% { top: -90px; opacity:1;}
@@ -1936,11 +1967,32 @@ svg:hover {
   }
 }
 
+@-moz-keyframes bounce {
+  0%{
+    -moz-animation-timing-function: ease-out;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40% {
+	-moz-animation-timing-function: ease-out;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
+  -moz-animation: bounce;
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
+  moz-animation-transform-origin:center bottom;
 }
 
 
