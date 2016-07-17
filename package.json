@@ -36,6 +36,7 @@
     "node": "0.12.7"
   },
   "devDependencies": {
+    "gulp-sass": "^2.3.2",
     "karma": "^0.12.37",
     "karma-babel-preprocessor": "^4.0.1",
     "karma-browserify": "^4.0.0",
