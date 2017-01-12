@@ -66,6 +66,13 @@ input::-moz-focus-inner {
 	padding-left:20px;
 }
 
+.about-container{
+	top: 100px !important;
+	position: relative !important;
+	max-width: 90%;
+	margin:0 auto;
+}
+
 
 /* ----------- iPhone 5 and 5S ----------- */
 
@@ -180,7 +187,7 @@ and (max-width : 568px) {
 		}
 
 		.badge-about{
-			top:220px !important;
+			top:0 !important;
 		}
 
 		.badge-home{
@@ -307,7 +314,8 @@ and (max-width : 568px) {
 		}
 
 		.about-container{
-			padding-top:200px;
+			top: 100px;
+    		position: relative;
 			max-width: 90%;
 			margin:0 auto;
 		}
@@ -472,7 +480,7 @@ and (max-width : 667px) {
 		}
 
 		.badge-about{
-			top: 250px !important; 
+			top:0 !important;
 		}
 
 		.badge-home{
@@ -598,7 +606,8 @@ and (max-width : 667px) {
 		}
 
 		.about-container{
-			padding-top:200px;
+			top: 100px !important;
+    		position: relative !important;
 			max-width: 90%;
 			margin:0 auto;
 		}
@@ -761,7 +770,7 @@ and (max-width : 1024px) {
 		}
 
 		.badge-about{
-			top: 250px !important; 
+			top:0 !important;
 		}
 
 		.badge-home{
@@ -986,7 +995,7 @@ and (max-width : 1024px) {
 		}
 
 		.badge-about{
-			top: 433px !important;
+			top:0 !important;
 		}
 
 		.badge-home{
@@ -1091,7 +1100,15 @@ and (max-width : 1024px) {
 		    width: 190px;
 		    margin-bottom: 40px;
 		    margin-top: 200px !important;
+		}
+
+		.about-container{
+			top: 30px !important;
+			position: relative !important;
+			max-width: 90%;
+			margin:0 auto;
 		}	
+
 }
 
 
@@ -1303,8 +1320,8 @@ li {
 }
 
 .badge-about{
-	position: relative;
-	top: 252px;
+	position: relative !important;
+	top:0 !important;
 	z-index: 999999999;
 }
 
@@ -1530,12 +1547,12 @@ svg {
 
 .row-center{
 	position: relative;
-  height: 100%;
+  	height: 100%;
 }
 
 .column-center{
 	position: relative;
-  height: 100%;
+  	height: 100%;
 }
 
 .wrapper img{
@@ -1546,7 +1563,6 @@ svg {
 
 .profile{
 	border-radius: 150px;
-	top: 330px;
 	width: 190px;
 	margin-bottom: 40px;
 }
@@ -1875,7 +1891,7 @@ svg {
 }
 
 .scrollTopButtonOn {
-	  background: url('../../images/scrollTop-01.svg') no-repeat;
+	background: url('../../images/scrollTop-01.svg') no-repeat;
     -webkit-transition: all 1s;
     transition: all 1s;
     position: fixed;
