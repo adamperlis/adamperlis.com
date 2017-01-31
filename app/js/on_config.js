@@ -74,6 +74,17 @@
  	});
 
  	$stateProvider
+ 	.state('project6', {
+ 		url: '/project6',
+ 		views: {
+ 			'default': {
+		 		templateUrl: 'project6.html'
+		 	}
+ 		},
+ 		title: 'project6'
+ 	});
+
+ 	$stateProvider
  	.state('about', {
  		url: '/about',
  		views: {

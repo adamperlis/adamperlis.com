@@ -238,6 +238,17 @@ and (max-width : 568px) {
 		  background-position-y: 3% !important;
 		}
 
+		.time {
+			background: url('../../images/pencil-ruler.svg') no-repeat center center;
+			z-index: -2;
+			background-size: 280px !important;
+			opacity: 1;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-position-y: 3% !important;
+		}
+
 		.controls-column-center {
 			position: fixed;
 			height: 100%;
@@ -976,6 +987,11 @@ li {
 	filter:invert(1);
 }
 
+.timeControls {
+	-webkit-filter:invert(1);
+	filter:invert(1);
+}
+
 .next-prev {
 	 transition:.5s all;
 }
@@ -1087,6 +1103,17 @@ li {
 	width: 100%;
 	position: absolute;
 	background-position: 50% 1%;
+}
+
+.time {
+	background: url('../../images/pencil-ruler.svg') no-repeat center center;
+	z-index: -2;
+	background-size: 280px;
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position: 50% 1.5%;
 }
 
 .title {
@@ -1344,6 +1371,7 @@ svg {
   font-weight: 100;  
   z-index: 100000000000000;
   transition:1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.38);
 }
 
 .navbar-brand {
@@ -1477,12 +1505,12 @@ svg {
 	position: absolute;
     pointer-events: none;
 	bottom: -16px;
-	left: -80px;
+	left: -100px;
 	opacity: 0;
 	transition: all 0.5s cubic-bezier(.55,0,.1,1);
-	 -ms-transform: translate(-70px,-10px); /* IE 9 */
-   	-webkit-transform: translate(-70px,-10px); /* Safari */
-    transform: translate(-70px,-10px);
+	 -ms-transform: translate(-80px,-10px); /* IE 9 */
+   	-webkit-transform: translate(-80px,-10px); /* Safari */
+    transform: translate(-80px,-10px);
     transform-origin:right top;
 }
 
@@ -1519,6 +1547,14 @@ svg {
 }
 
 .projectNum li:nth-child(5):hover span {
+	text-decoration: none;
+    opacity:1;
+     -ms-transform: translate(28px,-10px); /* IE 9 */
+   	-webkit-transform: translate(28px,-10px); /* Safari */
+    transform: translate(28px,-10px);
+}
+
+.projectNum li:nth-child(6):hover span {
 	text-decoration: none;
     opacity:1;
      -ms-transform: translate(28px,-10px); /* IE 9 */
@@ -1563,6 +1599,10 @@ svg {
 }
 
 #project5{
+	-webkit-animation-delay: 1.05s;
+}
+
+#project6{
 	-webkit-animation-delay: 1.05s;
 }
 
@@ -1709,6 +1749,50 @@ svg {
 	z-index: 100000000;
 	position: relative;
 	background-color: white;
+}
+
+#project-canvas-time{
+	z-index: 100000000;
+	position: relative;
+	background-color: white;
+
+	img{
+		width: 70%;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+
+	.title {
+	color:black !important;
+	font-size:42px;
+	text-transform: uppercase;
+	padding:50px;
+	letter-spacing: 1px;
+	}
+
+	.subtitle {
+	font-family: 'ArcherProLightItalic';
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 1px;
+	color:black;
+	margin:0 auto;
+	position: relative;
+	left: 0;
+	right: 0;
+	padding-top:20px;
+	text-align: center;
+	}
+
+	p{
+	padding-left: 20px;
+    padding-right: 20px;
+    max-width: 830px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+	}
 }
 
 .futureText{

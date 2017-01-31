@@ -14,15 +14,15 @@
 
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body id="Top" ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), white: $state.includes('project5')}">
+<body id="Top" ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), newcoInvert: $state.includes('project5'),  white: $state.includes('project6')}">
 
-  <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), newcoInvert: $state.includes('project5'), aboutNav: $state.includes('about')} ">
+  <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), newcoInvert: $state.includes('project5'), white: $state.includes('project6'), aboutNav: $state.includes('about')} ">
     <div class="container">
       <div class="navbar-header pull-left">
         <a class="navbar-brand" ui-sref="home"></a>
     </div>
     <ul class="nav navbar-nav pull-left">
-      <li><a ui-sref="project1">Work</a></li>
+      <li><a ui-sref="project6">Work</a></li>
       <li><a ui-sref="about">About</a></li>
     </ul>
   </div>
@@ -44,7 +44,7 @@
   </div>
 
   <div class="row row-center" ng-hide="currentPath === '/' || currentPath=== '/about'">
-    <div class="col-xs-12 col-sm-12 animated fadeInUp controls-column-center center-block text-center" ng-class="{newcoControls: $state.includes('project5')}">
+    <div class="col-xs-12 col-sm-12 animated fadeInUp controls-column-center center-block text-center" ng-class="{newcoControls: $state.includes('project5'), timeControls: $state.includes('project6')}">
       <div class="row">
         <div class="col-xs-4"></div>
         <div class="col-xs-2 next-prev">
@@ -86,11 +86,12 @@
 
   <div class="hidden-xs hidden-sm col-md-1" ng-hide="currentPath === '/' || currentPath=== '/about'" style="z-index: 9999999999999999;">
     <ul class="projectNum">
-      <li id="project1" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project1')}" ui-sref="project1"><span title="History of Innovation"></span>1</a></li>
-      <li id="project2" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project2')}" ui-sref="project2"><span title="Future Look"></span>2</a></li>
+      <li id="project1" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project1')}" ui-sref="project1"><span title="AT&T History of Innovation"></span>1</a></li>
+      <li id="project2" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project2')}" ui-sref="project2"><span title="AT&T Future Look"></span>2</a></li>
       <li id="project3" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project3')}" ui-sref="project3"><span title="Podium"></span>3</a></li>
       <li id="project4" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project4')}" ui-sref="project4"><span title="Pickle"></span>4</a></li>
       <li id="project5" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project5')}" ui-sref="project5"><span title="AT&T AdWorks"></span>5</a></li>
+      <li id="project6" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project6')}" ui-sref="project6"><span title="Time"></span>6</a></li>
     </ul>
   </div>
 

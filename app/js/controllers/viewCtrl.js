@@ -69,24 +69,29 @@ $scope.scrollup = function() {
 };
 
 //cycle through projects #####BROKEN NEED TO FIX#######
-var route = ['project1','project2','project3','project4','project5']
+var route = ['project1','project2','project3','project4','project5', 'project6']
 
 var index = 0
+console.log(index)
 
 $scope.next = function () {
-    var path = route[index + 1];
-    $location.path(path);
+    var path = route[index];
         // console.log("clicked right");
-        index = index + 1
-
-        if (index == 4) {
-            index = -1
+        console.log("clicked" + index);
+        if (index == 6) {
+            index = 0
+            console.log("checked" + index);
         }
+
+        index = index + 1
+        console.log("complete" + index);
+        $location.path(path);
+        
     };
 
     $scope.prev = function () {
         if (index == 0) {
-            index = 5
+            index = 6
         }
         var path = route[index - 1];
         $location.path(path);
