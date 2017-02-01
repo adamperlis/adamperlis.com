@@ -241,7 +241,7 @@ and (max-width : 568px) {
 		.time {
 			background: url('../../images/pencil-ruler.svg') no-repeat center center;
 			z-index: -2;
-			background-size: 280px !important;
+			background-size: 180px !important;
 			opacity: 1;
 			height: 100%;
 			width: 100%;
@@ -252,7 +252,7 @@ and (max-width : 568px) {
 		.poy {
 			background: url('../../images/star.svg') no-repeat center center;
 			z-index: -2;
-			background-size: 280px;
+			background-size: 180px !important;
 			opacity: .5;
 			height: 100%;
 			width: 100%;
