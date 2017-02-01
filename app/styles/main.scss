@@ -249,6 +249,17 @@ and (max-width : 568px) {
 			background-position-y: 3% !important;
 		}
 
+		.poy {
+			background: url('../../images/star.svg') no-repeat center center;
+			z-index: -2;
+			background-size: 280px;
+			opacity: .5;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			background-position: 50% 5% !important;
+		}
+
 		.controls-column-center {
 			position: fixed;
 			height: 100%;
@@ -992,6 +1003,11 @@ li {
 	filter:invert(1);
 }
 
+.POYControls {
+	-webkit-filter:invert(0);
+	filter:invert(0);
+}
+
 .next-prev {
 	 transition:.5s all;
 }
@@ -1114,6 +1130,17 @@ li {
 	width: 100%;
 	position: absolute;
 	background-position: 50% 1.5%;
+}
+
+.poy {
+	background: url('../../images/star.svg') no-repeat center center;
+	z-index: -2;
+	background-size: 280px;
+	opacity: .5;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position: 50% 3%;
 }
 
 .title {
@@ -1253,6 +1280,11 @@ li {
 	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
+.red{
+	background:#AF1D2A;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+}
+
 .navbar a {
 	color:black;
 	font-family: 'ArcherProBook';
@@ -1318,6 +1350,19 @@ li {
 
 .newcoInvert a{
 	color:black;
+}
+
+.poyInvert {
+	background:#AF1D2A;
+	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+
+	a{
+		color:white;
+	}
+
+	.navbar-brand{
+			filter:invert(1);
+	}
 }
 
 svg {
@@ -1562,6 +1607,14 @@ svg {
     transform: translate(28px,-10px);
 }
 
+.projectNum li:nth-child(7):hover span {
+	text-decoration: none;
+    opacity:1;
+     -ms-transform: translate(28px,-10px); /* IE 9 */
+   	-webkit-transform: translate(28px,-10px); /* Safari */
+    transform: translate(28px,-10px);
+}
+
 .projectNum li a span:after {
     background: #434343;
     border-radius: .4em;
@@ -1603,6 +1656,10 @@ svg {
 }
 
 #project6{
+	-webkit-animation-delay: 1.05s;
+}
+
+#project7{
 	-webkit-animation-delay: 1.05s;
 }
 
@@ -1777,6 +1834,50 @@ svg {
 	font-style: italic;
 	letter-spacing: 1px;
 	color:black;
+	margin:0 auto;
+	position: relative;
+	left: 0;
+	right: 0;
+	padding-top:20px;
+	text-align: center;
+	}
+
+	p{
+	padding-left: 20px;
+    padding-right: 20px;
+    max-width: 830px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+	}
+}
+
+#project-canvas-poy{
+	z-index: 100000000;
+	position: relative;
+
+	img{
+		width: 70%;
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+
+	.title {
+    color: white !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom:10px;
+    letter-spacing: 6px;
+	}
+
+	.subtitle {
+	font-family: 'ArcherProLightItalic';
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 1px;
+	color:white;
 	margin:0 auto;
 	position: relative;
 	left: 0;

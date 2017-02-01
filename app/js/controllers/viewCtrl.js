@@ -9,7 +9,62 @@ controllersModule.controller('viewCtrl', ['$rootScope', '$scope', '$state', '$lo
 //Scroll to top on route change
 $rootScope.$on("$stateChangeSuccess", function (event, currentState, previousState) {
     $window.scrollTo(0, 0);
-});
+
+        var project = $location.path()
+        var indexNum = project.substr(project.length - 1)
+        var index = Number(indexNum)
+        console.log(index)
+
+         // console.log(index)
+    var path = "project" + index;
+        
+    $scope.next = function () {
+            // console.log("clicked right");
+            // console.log("clicked" + index);
+            index = index + 1 
+            
+            if (index > 7) {
+                index = 1
+
+                path = "project" + index;
+                // console.log("path" + path);
+                $location.path(path);
+                // console.log("checked" + index);
+         
+            } else {
+               
+            // console.log("complete" + index);
+            path = "project" + index;;
+            // console.log("path" + path)
+            $location.path(path);
+
+            }
+            
+        };
+
+        $scope.prev = function () {
+            console.log("clicked" + index);
+            index = index - 1 
+            
+            if (index < 1) {
+                index = 7
+
+                path = "project" + index;
+                $location.path(path);
+                // console.log("checked" + index);
+         
+            } else {
+               
+            // console.log("complete" + index);
+            path = "project" + index;
+            // console.log("complete" + path);
+            $location.path(path);
+
+            }
+           
+
+        };
+    });
 
     $scope.scrollTopButton = false;
 
@@ -68,37 +123,7 @@ $scope.scrollup = function() {
     $document.scrollTop(0, 1300);
 };
 
-//cycle through projects #####BROKEN NEED TO FIX#######
-var route = ['project1','project2','project3','project4','project5', 'project6']
 
-var index = 0
-console.log(index)
-
-$scope.next = function () {
-    var path = route[index];
-        // console.log("clicked right");
-        console.log("clicked" + index);
-        if (index == 6) {
-            index = 0
-            console.log("checked" + index);
-        }
-
-        index = index + 1
-        console.log("complete" + index);
-        $location.path(path);
-        
-    };
-
-    $scope.prev = function () {
-        if (index == 0) {
-            index = 6
-        }
-        var path = route[index - 1];
-        $location.path(path);
-        // console.log("clicked left");
-        index = index - 1
-
-    };
 
     // $scope.swipeLeft = function($event) {
     //     console.log($event);

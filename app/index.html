@@ -14,9 +14,9 @@
 
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body id="Top" ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), newcoInvert: $state.includes('project5'),  white: $state.includes('project6')}">
+<body id="Top" ng-class="{grey: $state.includes('project1'), black: $state.includes('project2'), purple: $state.includes('project3'), green: $state.includes('project4'), newcoInvert: $state.includes('project5'),  white: $state.includes('project6'), red: $state.includes('project7')}">
 
-  <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), newcoInvert: $state.includes('project5'), white: $state.includes('project6'), aboutNav: $state.includes('about')} ">
+  <nav class="navbar navbar-fixed-top" ng-class="{historyInvert: $state.includes('project1'), futureInvert: $state.includes('project2'), podiumInvert: $state.includes('project3'), pickleInvert: $state.includes('project4'), newcoInvert: $state.includes('project5'), white: $state.includes('project6'), poyInvert: $state.includes('project7'), aboutNav: $state.includes('about')} ">
     <div class="container">
       <div class="navbar-header pull-left">
         <a class="navbar-brand" ui-sref="home"></a>
@@ -44,7 +44,7 @@
   </div>
 
   <div class="row row-center" ng-hide="currentPath === '/' || currentPath=== '/about'">
-    <div class="col-xs-12 col-sm-12 animated fadeInUp controls-column-center center-block text-center" ng-class="{newcoControls: $state.includes('project5'), timeControls: $state.includes('project6')}">
+    <div class="col-xs-12 col-sm-12 animated fadeInUp controls-column-center center-block text-center" ng-class="{newcoControls: $state.includes('project5'), timeControls: $state.includes('project6'), POYControls: $state.includes('project7')}">
       <div class="row">
         <div class="col-xs-4"></div>
         <div class="col-xs-2 next-prev">
@@ -92,6 +92,7 @@
       <li id="project4" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project4')}" ui-sref="project4"><span title="Pickle"></span>4</a></li>
       <li id="project5" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project5')}" ui-sref="project5"><span title="AT&T AdWorks"></span>5</a></li>
       <li id="project6" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project6')}" ui-sref="project6"><span title="Time"></span>6</a></li>
+      <li id="project7" class="animated fadeInUp"><a ng-class="{focus: $state.includes('project7')}" ui-sref="project7"><span title="Time Person of the Year"></span>7</a></li>
     </ul>
   </div>
 
