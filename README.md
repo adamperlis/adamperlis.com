@@ -1,6 +1,8 @@
 # adamperlis.com
 npm install
 
+make sure you are running npm 9.6.4
+
 Run npm install from the root directory
 Run `gulp dev` (may require installing Gulp globally npm install gulp -g)
 Your browser will automatically be opened and directed to the browser-sync proxy address
